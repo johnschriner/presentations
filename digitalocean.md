@@ -1,6 +1,6 @@
-How To Set Up the Latest MediaWiki with Lighttpd on Ubuntu 14.04
+#How To Set Up the Latest MediaWiki with Lighttpd on Ubuntu 14.04
 
-Introduction
+##Introduction
 
 MediaWiki is a popular open source wiki platform that can be used for public or internal collaborative content publishing. MediaWiki is used for many of the most popular wikis on the internet including Wikipedia, the site that the project was originally designed to serve.
 
@@ -10,8 +10,9 @@ Prerequisites
 To complete this guide, you should have access to a clean Ubuntu 14.04 server instance. On this system, you should have a non-root user configured with sudo privileges for administrative tasks. You can learn how to set this up by following our Ubuntu 14.04 initial server setup guide.
 
 When you are ready to continue, log into your server with your sudo user and get started below.
-Install the Server Components
-Configure MySQL and Create Credentials for MediaWiki
-Configure PHP-FPM and Lighttpd
-Install MediaWiki
-Conclusion
+##Install the Server Components
+##Configure MySQL and Create Credentials for MediaWiki
+##Configure PHP-FPM and Lighttpd
+##Install MediaWiki
+##Conclusion
+              by John Schriner
