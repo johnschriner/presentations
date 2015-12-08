@@ -11,12 +11,35 @@ In this guide, we will be setting up the latest version of MediaWiki on an Ubunt
 To complete this guide, you should have access to a clean Ubuntu 14.04 server instance. On this system, you should have a non-root user configured with sudo privileges for administrative tasks. You can learn how to set this up by following our Ubuntu 14.04 initial server setup guide.
 
 When you are ready to continue, log into your server.  As we're going to be installing software, make sure you enter the following and then your root password for administrator privileges:
+```command
+sudo su
+```
+Or simply prepend each of the following commands with:
+        sudo
 
-    sudo su
+It's good practice to make certain that your system is up to date with:
+
+        apt-get update
+        apt-get upgrade
+
 ##Install the Server Components
+As we're not using Apache as part of the **L**inux, **A**pache, **M**ySQL, **P**HP (LAMP) package, we're going to install each component separately.
+
+###Installing Lighttpd
+Lighttpd (pronounced *Lighty*) webserver is highly efficient, quick, and easy to install.
+Using apt-get we'll install Lighttpd:
+
+        apt-get install lighttpd
+After installation, the web server will automatically start.  Simply point your browser to your Droplet's public IP address and the placeholder page with show up at the default port 80.
+This Welcome page explains that configuration files can be found in the directory:
+
+        /etc/lighttpd
+
+The document root directory is by default:
+
+        /var/www
 
 
-##Installing Lighttpd
 
 ##Configure MySQL and Create Credentials for MediaWiki
 ##Configure PHP-FPM and Lighttpd
