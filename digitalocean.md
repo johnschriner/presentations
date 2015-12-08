@@ -37,15 +37,42 @@ The document root directory is by default:
 
         /var/www
 
+Lighttpd can be admininistered from the command line by using the following:
+
+        sudo service lighttpd start
+        sudo service lighttpd stop
+        sudo service lighttpd restart
+
 ##Installing and Configure MySQL and Create Credentials for MediaWiki
 Next, we'll install and configure MySQL database to store the information for the wiki.
 Install the newest MySQL using apt-get:
 
         sudo apt-get install mysql-server
+You will be asked to create a root password.  Make sure to remember it or place it in a password manager; we'll need the root password to create an account for MediaWiki.
+
+MySQL service will start automatically but to check that the service has opened a port you can try:
+
+        nmap localhost
+
+MySQL will have port 3306 opened.
+[insert image]
+In the same way as lighttpd, MySQL can be administered from the command line:
+
+        sudo service mysql start
+        sudo service mysql stop                
+        sudo service mysql restart
 
 ##Create Credentials for MediaWiki
+Log into MySQL as root:
+
+        mysql -u root -p
+
+
+
+In this tutorial we'll be 
 ##Configure PHP-FPM and Lighttpd
 ##Install MediaWiki
+##Securing your wiki with SSL
 ##Conclusion
 We now have a secure MediaWiki with Lighttpd instance running on Ubuntu 14.04.
 It's quickly installed and configured.
