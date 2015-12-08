@@ -11,6 +11,12 @@ To complete this guide, you should have access to a clean Ubuntu 14.04 server in
 
 When you are ready to continue, log into your server with your sudo user and get started below.
 ##Install the Server Components
+We're going to be installing software so make sure you enter the following and then your root password for administrator privileges:
+
+  sudo su
+
+###Installing Lighttpd
+
 ##Configure MySQL and Create Credentials for MediaWiki
 ##Configure PHP-FPM and Lighttpd
 ##Install MediaWiki
