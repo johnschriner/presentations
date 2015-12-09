@@ -42,8 +42,8 @@ Lighttpd can be admininistered from the command line by using the following:
         sudo service lighttpd start
         sudo service lighttpd stop
         sudo service lighttpd restart
-
-##Installing and Configure MySQL and Create Credentials for MediaWiki
+        
+###Installing MySQL Server
 Next, we'll install and configure MySQL database to store the information for the wiki.
 Install the newest MySQL using apt-get:
 
@@ -55,23 +55,52 @@ MySQL service will start automatically but to check that the service has opened 
         nmap localhost
 
 MySQL will have port 3306 opened.
-[insert image]
-In the same way as lighttpd, MySQL can be administered from the command line:
+
+![nmap shows us which ports are open](http://i.imgur.com/wIfVYNb.png)
+
+ 
+As MySQL is a service like lighttpd, it can be administered from the command line:
 
         sudo service mysql start
         sudo service mysql stop                
         sudo service mysql restart
+        
+Install PHP with:
+
+        apt-get install php5-cli
+
+After installation we can verify it was properly installed and get the version number:
+
+        php -v
+
+        
+##Configure MySQL and Create Credentials for MediaWiki
 
 ##Create Credentials for MediaWiki
 Log into MySQL as root:
 
         mysql -u root -p
+At the mysql prompt now, we can add do the following to create a user:
 
+        CREATE DATABASE mediawikidb;
+        CREATE USER mediawikiuser@localhost IDENTIFIED BY 'mediawikipassword';
+        GRANT index, create, select, insert, update, delete, alter, lock tables on mediawikidb.* TO mediawikiuser@localhost;
+        FLUSH PRIVILEGES;
+        exit
 
-
-In this tutorial we'll be 
 ##Configure PHP-FPM and Lighttpd
 ##Install MediaWiki
+Install the newest version of MediaWiki:
+
+        wget https://releases.wikimedia.org/mediawiki/1.26/mediawiki-1.26.0.tar.gz
+Extract the archive:        
+
+        tar xvzf mediawiki-*.tar.gz
+Create a new mediawiki directory in the webserver root and move the contexts of mediawiki to it:
+
+        mkdir -p /var/www/mediawiki
+        mv mediawiki-1.26.0/* /var/www/mediawiki
+
 ##Securing your wiki with SSL
 ##Conclusion
 We now have a secure MediaWiki with Lighttpd instance running on Ubuntu 14.04.
