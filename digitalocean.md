@@ -10,7 +10,7 @@ In this guide, we will be setting up the latest version of MediaWiki on an Ubunt
 
 To complete this guide, you should have access to a clean Ubuntu 14.04 server instance. On this system, you should have a non-root user configured with sudo privileges for administrative tasks. You can learn how to set this up by following our Ubuntu 14.04 initial server setup guide.
 
-When you are ready to continue, log into your server.  As we're going to be installing software, make sure you either enter the following and then your root password for administrator privileges or simply type sudo before each command in this tutorial:
+When you are ready to continue, log into your server.  We will be connected through a terminal to our server via SSH.  More information on SSH can be found [here](https://www.digitalocean.com/community/tutorials/how-to-connect-to-your-droplet-with-ssh).  As we're going to be installing software, make sure you either enter the following and then your root password for administrator privileges or simply type sudo before each command in this tutorial:
 
         sudo su
 
