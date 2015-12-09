@@ -103,7 +103,8 @@ Now, we'll edit the old 15-fastcgi-php.conf:
 Edit this file to now read:
 
         # /usr/share/doc/lighttpd-doc/fastcgi.txt.gz
-        # http://redmine.lighttpd.net/projects/lighttpd/wiki/Docs:ConfigurationOptions#mod_fastcgi-fastcgi
+        # http://redmine.lighttpd.net/projects/lighttpd/wiki/Docs:ConfigurationOptions
+        # mod_fastcgi-fastcgi
         
         ## Start an FastCGI server for php (needs the php5-cgi package)
         fastcgi.server += ( ".php" =>
