@@ -65,18 +65,16 @@ As MySQL is a service like lighttpd, it can be administered from the command lin
         sudo service mysql stop                
         sudo service mysql restart
         
-Install PHP with:
+Install PHP and FPM (FastCGI Process Manager) with:
 
-        apt-get install php5-cli php5-cgi php5-mysql
+        apt-get install php5-cli php5-cgi php5-mysql php-fpm
+
+PHP-FPM is an alternative to Lighttpd's spawn-fcgi PHP FastCGI implementation.  Essentially, with its adaptive process spawning it helps to handle traffic for busy sites.  We'll configure this further below.
 
 After installation we can verify it was properly installed and get the version number:
 
         php -v
-We'll want to enable the following otherwise we'll get 403-Forbidden errors from the webserver:
-
-        sudo lighttpd-enable-mod fastcgi fastcgi-php
-        sudo service lighttpd force-reload
-
+++++++++ADD other PHP check method+++++++
         
 ##Configure MySQL and Create Credentials for MediaWiki
 Log into MySQL as root:
@@ -90,7 +88,40 @@ At the mysql prompt now, we can add do the following to create a user:
         FLUSH PRIVILEGES;
         exit
 
-##Configure PHP-FPM and Lighttpd
+##Configure Lighttpd and PHP-FPM
+We now need to configure Lighttpd to use PHP-FPM instead of spawn-fcgi.
+To do this, cd to Lighttpd's configuration file directory:
+
+        cd /etc/lighttpd/conf-available/
+Then make a backup copy of 15-fastcgi-php.conf
+
+        cp 15-fastcgi-php.conf 15-fastcgi-php-spawnfcgi.conf
+Now, we'll edit the old 15-fastcgi-php.conf:
+
+        nano 15-fastcgi-php.conf
+
+Edit this file to now read:
+
+        # /usr/share/doc/lighttpd-doc/fastcgi.txt.gz
+        # http://redmine.lighttpd.net/projects/lighttpd/wiki/Docs:ConfigurationOptions#mod_fastcgi-fastcgi
+        
+        ## Start an FastCGI server for php (needs the php5-cgi package)
+        fastcgi.server += ( ".php" =>
+                ((
+                "socket" => "/var/run/php5-fpm.sock",
+                "broken-scriptfilename" => "enable"
+                ))
+        )
+
+
+We'll want to enable the following otherwise we'll get 403-Forbidden errors from the webserver:
+
+        sudo lighttpd-enable-mod fastcgi fastcgi-php
+        sudo service lighttpd force-reload
+
+
+
+
 ##Install MediaWiki
 Installing and configuring the newest version of MediaWiki:
 
