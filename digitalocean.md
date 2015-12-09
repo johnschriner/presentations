@@ -67,16 +67,18 @@ As MySQL is a service like lighttpd, it can be administered from the command lin
         
 Install PHP with:
 
-        apt-get install php5-cli
+        apt-get install php5-cli php5-cgi php5-mysql
 
 After installation we can verify it was properly installed and get the version number:
 
         php -v
+We'll want to enable the following otherwise we'll get 403-Forbidden errors from the webserver:
+
+        sudo lighttpd-enable-mod fastcgi fastcgi-php
+        sudo service lighttpd force-reload
 
         
 ##Configure MySQL and Create Credentials for MediaWiki
-
-##Create Credentials for MediaWiki
 Log into MySQL as root:
 
         mysql -u root -p
@@ -90,7 +92,7 @@ At the mysql prompt now, we can add do the following to create a user:
 
 ##Configure PHP-FPM and Lighttpd
 ##Install MediaWiki
-Install the newest version of MediaWiki:
+Installing and configuring the newest version of MediaWiki:
 
         wget https://releases.wikimedia.org/mediawiki/1.26/mediawiki-1.26.0.tar.gz
 Extract the archive:        
@@ -100,6 +102,30 @@ Create a new mediawiki directory in the webserver root and move the contexts of 
 
         mkdir -p /var/www/mediawiki
         mv mediawiki-1.26.0/* /var/www/mediawiki
+###Starting the Web Installation
+On your local machine, we can now go to http://localhost/mediawiki and start the configuration using all of the installed components
+![](http://i.imgur.com/Male16R.png)
+Mediawiki will perform environmental checks to ensure that Mediawiki can be installed.
+Upon connecting MySQL plug in the database information we created above.
+![]()  <--screenshot
+Click continue to select the default options InnoDB and Binary.
+Next, name your wiki and create an admin account with a secure password of at least 8 characters.
+We should go through the next optional as it concerns licenses and copyright as well as email settings.
+Here is where you also have options for skins, extensions, and whether users may upload files or not.
+
+The MediaWiki installation will automatically offer the download of a LocalSettings.php file.
+Open up a local terminal so that there is one the local machine and one that is still currently connected via SSH to your server.
+On the local machine cd to the directly where the LocalSettings.php file got downloaded to.
+Next:
+cat LocalSettings.php
+and copy all of the text starting with **<?php**
+Going back to the terminal that is connected to the server:
+
+        nano /var/www/mediawiki/LocalSettings.php
+        
+Control-O to save the file and keep the file named LocalSettings.php
+Once that file is saved, either click the **enter your wiki** link or enter the wiki by going to:
+http://[public IP address]/mediawiki/index.php
 
 ##Securing your wiki with SSL
 ##Conclusion
