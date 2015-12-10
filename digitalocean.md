@@ -94,7 +94,7 @@ First, we need to enable PHP-FPM for Lighttpd.  To do this we'll need to uncomme
 
         nano /etc/php5/fpm/php.ini
 This is a very large file and this line is 768 in the _Paths and Directories_ section.  
-The keyboard shortcut `control+c` in nano shows the line number.
+The keyboard shortcut <kbd>ctrl</kbd> + <kbd>c</kbd> in nano shows the line number.
 
 <img src="http://i.imgur.com/JNkP3iz.png" alt="uncommenting line 768" width="600">
 
@@ -190,7 +190,7 @@ Going back to the terminal that is connected to the server:
 
         nano /var/www/mediawiki/LocalSettings.php
         
-Paste all of the text, press the shortcut _control-o_ to save the file and keep the file named `LocalSettings.php`.
+Paste all of the text, press the shortcut <kbd>ctrl</kbd> + <kbd>o</kbd> to save the file and keep the file named `LocalSettings.php`.
 
 This file can be edited to change the name of the MediaWiki or edit many of the configurations from web setup.
 Once that file is saved, either click the **enter your wiki** link or enter the wiki by going to `http://[SERVER_IP]/mediawiki/index.php`
@@ -227,7 +227,7 @@ The very last lines of `LocalSettings.php` should now look like this:
 
 
 
-Save the file with `control-o` and `control-x` to exit out.
+Save the file with <kbd>ctrl</kbd> + <kbd>o</kbd> and <kbd>ctrl</kbd> + <kbd>x</kbd> to exit out.
 To check that the extension installed properly navigate in the left column to:
 `Special Pages: Data and Tools: Version`, or enter in the URL:
 
