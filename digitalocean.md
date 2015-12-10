@@ -232,7 +232,7 @@ The very last lines of `LocalSettings.php` should now look like this:
 
 
 
-Save the file with <kbd>ctrl</kbd> + <kbd>o</kbd> and <kbd>ctrl</kbd> + <kbd>x</kbd> to exit out.
+Save the file with <kbd>ctrl</kbd> + <kbd>o</kbd>, then <kbd>enter</kbd>, and <kbd>ctrl</kbd> + <kbd>x</kbd> to exit out.
 
 To check that the extension installed properly navigate in the left column to:
 `Special Pages: Data and Tools: Version`, or enter in the URL:
