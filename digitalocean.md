@@ -178,13 +178,13 @@ The MediaWiki installation will automatically offer the download of a `LocalSett
 <img src="http://i.imgur.com/9zju96B.png" alt="download LocalSettings.php" width="500">
 
 Open up a local terminal so that there is one for the local machine and one that is still currently connected via SSH to your server.
-On the local machine, `cd` to the directly where the `LocalSettings.php` file was downloaded to.
+On the local machine, `cd` to the directory where the `LocalSettings.php` file was downloaded to.
 
 Next:
 
         cat LocalSettings.php
         
-and copy all of the text from that file starting with **<?php**
+Copy all of the text from that file starting with **<?php**
 
 Going back to the terminal that is connected to the server:
 
@@ -192,7 +192,7 @@ Going back to the terminal that is connected to the server:
         
 Paste all of the text, press the shortcut <kbd>ctrl</kbd> + <kbd>o</kbd> to save the file and keep the file named `LocalSettings.php`.
 
-This file can be edited to change the name of the MediaWiki or edit many of the configurations from web setup.
+This file can be edited to change the name of the MediaWiki or edit many of the configurations from our web setup.
 Once that file is saved, either click the _enter your wiki_ link or enter the wiki by going to `http://[SERVER_IP]/mediawiki/index.php`
 
 ##A Note on Adding Extensions and an Example
@@ -239,6 +239,6 @@ By clicking on the link for `Wiki Interface` or navigating to `http://[SERVER_IP
 
 ##Conclusion
 We now have the latest MediaWiki with Lighttpd running on Ubuntu 14.04.
-We've started adding extensions and now we have to start making content.
+We've added an extension and now we have to start creating content.
 <p align="right">by John Schriner</p> 
 
