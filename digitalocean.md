@@ -64,7 +64,8 @@ As MySQL is a service like Lighttpd and it can be administered from the command 
         sudo service mysql start
         sudo service mysql stop                
         sudo service mysql restart
-        
+
+###Installing PHP-FPM        
 Install PHP and FPM (FastCGI Process Manager) with:
 
         apt-get install php5-cli php5-cgi php5-mysql php5-fpm
