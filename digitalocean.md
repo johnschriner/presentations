@@ -233,10 +233,11 @@ To check that the extension installed properly navigate in the left column to:
         http://[SERVER_IP]/mediawiki/index.php?title=Special:Version
 
 In the `Installed Extensions` section, Maintenance extension will be listed, no restart of the services necessary.
-
+By clicking on the link for `Wiki Interface` or navigating to `http://[SERVER_IP]/mediawiki/index.php?title=Special:Maintenance`, we'll see all of the maintenance scripts available.
 
 
 ##Conclusion
-We now have a secure MediaWiki with Lighttpd instance running on Ubuntu 14.04.
-It's fairly quickly installed and configured.
+We now have the latest MediaWiki with Lighttpd running on Ubuntu 14.04.
+We've started adding extensions and now we have to start making content.
+<p align="right">by John Schriner</p> 
 
