@@ -8,7 +8,7 @@ In this guide, we will be setting up the latest version of MediaWiki on an Ubunt
 ##Prerequisites
 
 
-To complete this guide, you should have access to a clean Ubuntu 14.04 server instance. On this system, you should have a non-root user configured with sudo privileges for administrative tasks. You can learn how to set this up by following our Ubuntu 14.04 initial server setup guide.
+To complete this guide, you should have access to a clean Ubuntu 14.04 server instance. On this system, you should have a non-root user configured with sudo privileges for administrative tasks. You can learn how to set this up by following our [Ubuntu 14.04 initial server setup guide](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-14-04).
 
 When you are ready to continue, log into your server.  We will be connected through a terminal to our server via SSH.  More information on SSH can be found [here](https://www.digitalocean.com/community/tutorials/how-to-connect-to-your-droplet-with-ssh).  As we're going to be installing software, make sure you either enter the following and then your root password for administrator privileges or simply type sudo before each command in this tutorial:
 
@@ -136,6 +136,8 @@ Paste the following line into the file:
 
         <?php phpinfo(); ?>
 
+Save the file as `info.php`
+
 Direct the local web browser to `http://[SERVER_IP]/info.php` and see that FPM/FastCGI is now the server API.
 <img src="http://i.imgur.com/hV1OKMb.png" alt="php5-fpm" width="300">
 
@@ -159,29 +161,29 @@ On the local machine, go to http://[SERVER_IP]/mediawiki and start the configura
 
 MediaWiki will perform environmental checks to ensure that MediaWiki can be installed.
 
-Upon connecting MySQL plug in the database information we created above.
+Enter in the database information we created above.
 
-![MySQL credentials](http://i.imgur.com/NFvz9vF.png)
+<img src="http://i.imgur.com/NFvz9vF.png" alt="MySQL credentials" width="250">
 
-Click continue to select the default options InnoDB and Binary.
+Click continue to select the default options `InnoDB` and `Binary`.
 
-Next, name your wiki and create an admin account with a secure password of at least 8 characters.  Remember this username and password for administration once installed.
+Next, name your wiki and create an admin account with a secure password of at least 8 characters.  Remember this username and password for administration once MediaWiki is installed.
 
-We should go through the next optional as it concerns licenses and copyright as well as email settings.
+We should go through the next optional page as it concerns licenses, copyright and email settings.
 Here is where you also have options for skins, extensions, and whether users may upload files or not.
 
 The MediaWiki installation will automatically offer the download of a `LocalSettings.php` file.
 
 <img src="http://i.imgur.com/9zju96B.png" alt="download LocalSettings.php" width="400">
 
-Open up a local terminal so that there is one the local machine and one that is still currently connected via SSH to your server.
+Open up a local terminal so that there is one for the local machine and one that is still currently connected via SSH to your server.
 On the local machine, `cd` to the directly where the `LocalSettings.php` file was downloaded to.
 
 Next:
 
         cat LocalSettings.php
         
-and copy all of the text starting with **<?php**
+and copy all of the text from that file starting with **<?php**
 
 Going back to the terminal that is connected to the server:
 
