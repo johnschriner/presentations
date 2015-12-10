@@ -166,7 +166,7 @@ Enter in the database information we created [above](https://github.com/johnschr
 
 <img src="http://i.imgur.com/NFvz9vF.png" alt="MySQL credentials" width="250">
 
-Click continue to select the default options `InnoDB` and `Binary`.
+Click _continue_ to select the default options `InnoDB` and `Binary`.
 
 Next, name your wiki and create an admin account with a secure password of at least 8 characters.  Remember this username and password for administration once MediaWiki is installed.
 
@@ -193,7 +193,7 @@ Going back to the terminal that is connected to the server:
 Paste all of the text, press the shortcut <kbd>ctrl</kbd> + <kbd>o</kbd> to save the file and keep the file named `LocalSettings.php`.
 
 This file can be edited to change the name of the MediaWiki or edit many of the configurations from web setup.
-Once that file is saved, either click the **enter your wiki** link or enter the wiki by going to `http://[SERVER_IP]/mediawiki/index.php`
+Once that file is saved, either click the _enter your wiki_ link or enter the wiki by going to `http://[SERVER_IP]/mediawiki/index.php`
 
 ##A Note on Adding Extensions and an Example
 MediaWiki's [_Get Extensions_](https://www.mediawiki.org/wiki/Category:Extensions) page showcases hundreds of extensions to add to MediaWiki.  
