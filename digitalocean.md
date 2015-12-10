@@ -162,20 +162,33 @@ Create a new mediawiki directory in the webserver root and move the contexts of 
 ###Starting the Web Installation
 On your local machine, we can now go to http://localhost/mediawiki and start the configuration using all of the installed components
 ![](http://i.imgur.com/Male16R.png)
+
 Mediawiki will perform environmental checks to ensure that Mediawiki can be installed.
+
 Upon connecting MySQL plug in the database information we created above.
+
 ![]()  <--screenshot
+
 Click continue to select the default options InnoDB and Binary.
+
 Next, name your wiki and create an admin account with a secure password of at least 8 characters.  Remember this username and password for administration once installed.
+
 We should go through the next optional as it concerns licenses and copyright as well as email settings.
 Here is where you also have options for skins, extensions, and whether users may upload files or not.
 
 The MediaWiki installation will automatically offer the download of a LocalSettings.php file.
+
+++++++ADD IMAGE+++++++
+
 Open up a local terminal so that there is one the local machine and one that is still currently connected via SSH to your server.
-On the local machine cd to the directly where the LocalSettings.php file got downloaded to.
+On the local machine, 'cd' to the directly where the LocalSettings.php file was downloaded to.
+
 Next:
-cat LocalSettings.php
+
+        cat LocalSettings.php
+        
 and copy all of the text starting with **<?php**
+
 Going back to the terminal that is connected to the server:
 
         nano /var/www/mediawiki/LocalSettings.php
