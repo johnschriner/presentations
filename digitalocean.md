@@ -228,12 +228,14 @@ The very last lines of `LocalSettings.php` should now look like this:
 
 
 Save the file with <kbd>ctrl</kbd> + <kbd>o</kbd> and <kbd>ctrl</kbd> + <kbd>x</kbd> to exit out.
+
 To check that the extension installed properly navigate in the left column to:
 `Special Pages: Data and Tools: Version`, or enter in the URL:
 
         http://[SERVER_IP]/mediawiki/index.php?title=Special:Version
 
 In the `Installed Extensions` section, Maintenance extension will be listed, no restart of the services necessary.
+
 By clicking on the link for `Wiki Interface` or navigating to `http://[SERVER_IP]/mediawiki/index.php?title=Special:Maintenance`, we'll see all of the maintenance scripts available.
 
 
