@@ -28,7 +28,7 @@ Lighttpd (pronounced *Lighty*) webserver is highly efficient, quick, and easy to
 Install Lighttpd using apt-get:
 
         sudo apt-get install lighttpd
-After installation, the web server will automatically start.  Simply point your browser to your Droplet's public IP address and the placeholder page with show up at the default port 80.
+After installation, the web server will automatically start.  Simply point the browser on your local machine to your Droplet's public IP address and the placeholder page with show up at the default port 80.
 This welcome page explains that configuration files can be found in the directory:
 
         /etc/lighttpd
@@ -67,7 +67,7 @@ As MySQL is a service like lighttpd, it can be administered from the command lin
         
 Install PHP and FPM (FastCGI Process Manager) with:
 
-        apt-get install php5-cli php5-cgi php5-mysql php-fpm
+        apt-get install php5-cli php5-cgi php5-mysql php5-fpm
 
 PHP-FPM is an alternative to Lighttpd's spawn-fcgi PHP FastCGI implementation.  Essentially, with its adaptive process spawning it helps to handle traffic for busy sites.  We'll configure this further below.
 
@@ -119,14 +119,13 @@ Now, we'll edit the old 15-fastcgi-php.conf:
 Edit this file to now read:
 
         # /usr/share/doc/lighttpd-doc/fastcgi.txt.gz
-        # http://redmine.lighttpd.net/projects/lighttpd/wiki/Docs:ConfigurationOptions
-        # mod_fastcgi-fastcgi
-        
+        # http://redmine.lighttpd.net/projects/lighttpd/wiki/Docs:ConfigurationOptions#mod_fastcgi-fastcgi
+
         ## Start an FastCGI server for php (needs the php5-cgi package)
         fastcgi.server += ( ".php" =>
                 ((
-                "socket" => "/var/run/php5-fpm.sock",
-                "broken-scriptfilename" => "enable"
+                        "socket" => "/var/run/php5-fpm.sock",
+                        "broken-scriptfilename" => "enable"
                 ))
         )
 
@@ -136,7 +135,16 @@ We'll want to enable the following otherwise we'll get 403-Forbidden errors from
         sudo lighttpd-enable-mod fastcgi fastcgi-php
         sudo service lighttpd force-reload
 
+To test that PHP-FPM is now the FastCGI server, create _info.php_ in the web root of the server:
 
+        nano /var/www/info.php
+
+Paste the following line into the file:
+
+        <?php phpinfo(); ?>
+
+Direct the local web browser to http://localhost/info.php and see that FPM/FastCGI is now the server API.
+![php5-fpm](http://i.imgur.com/hV1OKMb.png)
 
 
 ##Install MediaWiki
