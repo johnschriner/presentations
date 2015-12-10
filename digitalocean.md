@@ -21,14 +21,14 @@ It's good practice to make certain that your system is up to date with:
         sudo apt-get upgrade
 
 ##Install the Server Components
-As we're not using Apache as part of the **L**inux, **A**pache, **M**ySQL, **P**HP (LAMP) package, we're going to install each component separately.
+We will be setting up and configuring a **L**inux, **L**ightppd, **M**ySQL, **P**HP (LLMP) stack.  We're installing each component separately.
 
 ###Installing Lighttpd
 Lighttpd (pronounced *Lighty*) webserver is highly efficient, quick, and easy to install.
 Install Lighttpd using apt-get:
 
         sudo apt-get install lighttpd
-After installation, the web server will automatically start.  Simply point the browser on your local machine to your Droplet's public IP address and the placeholder page with show up at the default port 80.
+After installation, the web server will automatically start.  Simply point the browser on your local machine to your Droplet's public IP address and the placeholder page with show up at the default port `80`.
 This welcome page explains that configuration files can be found in the directory:
 
         /etc/lighttpd
@@ -59,7 +59,7 @@ MySQL will have port 3306 opened.
 <img src="http://i.imgur.com/wIfVYNb.png" alt="nmap shows us which ports are open" width="400">
 
  
-As MySQL is a service like lighttpd, it can be administered from the command line:
+As MySQL is a service like lighttpd and it can be administered from the command line:
 
         sudo service mysql start
         sudo service mysql stop                
@@ -89,11 +89,11 @@ At the mysql prompt now, we can add do the following to create a user:
 
 ##Configure Lighttpd and PHP-FPM
 
-First, we need to enable PHP-FPM for Lighttpd.  To do this we'll need to uncomment the line _cgi.fix_pathinfo=1_ in _/etc/php5/fpm/php.ini_:
+First, we need to enable PHP-FPM for Lighttpd.  To do this we'll need to uncomment the line `cgi.fix_pathinfo=1` in `/etc/php5/fpm/php.ini`:
 
         nano /etc/php5/fpm/php.ini
 This is a very large file and this line is 768 in the _Paths and Directories_ section.  
-The keyboard shortcut Control+c in nano shows the line number.
+The keyboard shortcut `control+c` in nano shows the line number.
 
 <img src="http://i.imgur.com/JNkP3iz.png" alt="uncommenting line 768" width="600">
 
@@ -102,10 +102,10 @@ We now need to configure Lighttpd to use PHP-FPM instead of spawn-fcgi.
 To do this, cd to Lighttpd's configuration file directory:
 
         cd /etc/lighttpd/conf-available/
-Then make a backup copy of 15-fastcgi-php.conf
+Then make a backup copy of `15-fastcgi-php.conf`:
 
         cp 15-fastcgi-php.conf 15-fastcgi-php-spawnfcgi.conf
-Now, we'll edit the old 15-fastcgi-php.conf:
+Now, we'll edit the old `15-fastcgi-php.conf`:
 
         nano 15-fastcgi-php.conf
 
@@ -128,7 +128,7 @@ We'll want to enable the modification and reload lighttpd:
         sudo lighttpd-enable-mod fastcgi fastcgi-php
         sudo service lighttpd force-reload
 
-To test that PHP-FPM is now the FastCGI server, create _info.php_ in the web root of the server:
+To test that PHP-FPM is now the FastCGI server, create `info.php` in the web root of the server:
 
         nano /var/www/info.php
 
@@ -136,7 +136,7 @@ Paste the following line into the file:
 
         <?php phpinfo(); ?>
 
-Direct the local web browser to http://[SERVER_IP]/info.php and see that FPM/FastCGI is now the server API.
+Direct the local web browser to `http://[SERVER_IP]/info.php` and see that FPM/FastCGI is now the server API.
 <img src="http://i.imgur.com/hV1OKMb.png" alt="php5-fpm" width="300">
 
 
@@ -170,12 +170,12 @@ Next, name your wiki and create an admin account with a secure password of at le
 We should go through the next optional as it concerns licenses and copyright as well as email settings.
 Here is where you also have options for skins, extensions, and whether users may upload files or not.
 
-The MediaWiki installation will automatically offer the download of a LocalSettings.php file.
+The MediaWiki installation will automatically offer the download of a `LocalSettings.php` file.
 
-++++++ADD IMAGE+++++++
+<img src="http://i.imgur.com/9zju96B.png" alt="download LocalSettings.php" width="400">
 
 Open up a local terminal so that there is one the local machine and one that is still currently connected via SSH to your server.
-On the local machine, 'cd' to the directly where the LocalSettings.php file was downloaded to.
+On the local machine, `cd` to the directly where the `LocalSettings.php` file was downloaded to.
 
 Next:
 
@@ -187,9 +187,10 @@ Going back to the terminal that is connected to the server:
 
         nano /var/www/mediawiki/LocalSettings.php
         
-Paste all of the text, press control-o to save the file and keep the file named LocalSettings.php
+Paste all of the text, press the shortcut _control-o_ to save the file and keep the file named `LocalSettings.php`.
+
 This file can be edited to change the name of the MediaWiki or edit many of the configurations from web setup.
-Once that file is saved, either click the **enter your wiki** link or enter the wiki by going to _http://[SERVER_IP]/mediawiki/index.php_
+Once that file is saved, either click the **enter your wiki** link or enter the wiki by going to `http://[SERVER_IP]/mediawiki/index.php`
 
 ##A Note on Adding Extensions
 MediaWiki's [_Get Extensions_](https://www.mediawiki.org/wiki/Category:Extensions) page showcases hundreds of extensions to add to MediaWiki.  Many of these extensions can be setup using a php script and simply editing _LocalSettings.php_.
