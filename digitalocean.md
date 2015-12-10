@@ -155,7 +155,7 @@ Create a new `mediawiki` directory in the webserver root and move the contexts o
         mkdir -p /var/www/mediawiki
         mv mediawiki-1.26.0/* /var/www/mediawiki
 ###Starting the Web Installation
-On the local machine, go to http://[SERVER_IP]/mediawiki and start the configuration using all of the installed components
+On the local machine, go to `http://[SERVER_IP]/mediawiki` and start the configuration using all of the components we've installed.
 
 <img src="http://i.imgur.com/Male16R.png" alt="starting mediawiki configuration" width="250">
 
@@ -174,7 +174,7 @@ Here is where you also have options for skins, extensions, and whether users may
 
 The MediaWiki installation will automatically offer the download of a `LocalSettings.php` file.
 
-<img src="http://i.imgur.com/9zju96B.png" alt="download LocalSettings.php" width="400">
+<img src="http://i.imgur.com/9zju96B.png" alt="download LocalSettings.php" width="500">
 
 Open up a local terminal so that there is one for the local machine and one that is still currently connected via SSH to your server.
 On the local machine, `cd` to the directly where the `LocalSettings.php` file was downloaded to.
@@ -194,8 +194,47 @@ Paste all of the text, press the shortcut _control-o_ to save the file and keep 
 This file can be edited to change the name of the MediaWiki or edit many of the configurations from web setup.
 Once that file is saved, either click the **enter your wiki** link or enter the wiki by going to `http://[SERVER_IP]/mediawiki/index.php`
 
-##A Note on Adding Extensions
-MediaWiki's [_Get Extensions_](https://www.mediawiki.org/wiki/Category:Extensions) page showcases hundreds of extensions to add to MediaWiki.  Many of these extensions can be setup using a php script and simply editing _LocalSettings.php_.
+##A Note on Adding Extensions and an Example
+MediaWiki's [_Get Extensions_](https://www.mediawiki.org/wiki/Category:Extensions) page showcases hundreds of extensions to add to MediaWiki.  
+Generally extensions go in their own subdirectory at `http://[SERVER_IP]/mediawiki/extensions/`.
+Before installing extensions, make certain that there is still active development of the extension and that you've read the documentation.
+Many of these extensions can be setup using a php script and simply editing _LocalSettings.php_.
+
+The [Maintenance](https://www.mediawiki.org/wiki/Extension:Maintenance) extension is a useful set of scripts for many tasks including cleaning up spam, checking usernames, and checking bad redirects.
+Go to the extension's download page and select MediaWiki version 1.26.
+Instead of downloading the file to the local machine, click `cancel` on the download dialog and we see that MediaWiki has a snapshot URL for the extension's tar.gz file.
+In the ssh session with the Droplet:
+
+        cd /tmp
+        wget [the complete URL for the tar.gz file]
+        tar -xzf [the tar.gz file] -C /var/www/mediawiki/extensions/
+
+Lastly, for extensions we'll need to edit the `LocalSettings.php` file:
+
+        nano /var/www/mediawiki/LocalSettings.php
+Add the following line to the bottom of of the file in the `more configuration options` section:
+
+        require_once "$IP/extensions/Maintenance/Maintenance.php";
+
+After that line, add the following line to grant permission to sysop and maintenance groups to access the special page and run maintenance scripts:
+
+        $wgGroupPermissions['sysop']['maintenance'] = true;
+        
+The very last lines of `LocalSettings.php` should now look like this:
+
+<img src="http://i.imgur.com/FMQmV8G.png" alt="Adding extensions" width="400">
+
+
+
+Save the file with `control-o` and `control-x` to exit out.
+To check that the extension installed properly navigate in the left column to:
+`Special Pages: Data and Tools: Version`, or enter in the URL:
+
+        http://[SERVER_IP]/mediawiki/index.php?title=Special:Version
+
+In the `Installed Extensions` section, Maintenance extension will be listed, no restart of the services necessary.
+
+
 
 ##Conclusion
 We now have a secure MediaWiki with Lighttpd instance running on Ubuntu 14.04.
