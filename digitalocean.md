@@ -89,6 +89,22 @@ At the mysql prompt now, we can add do the following to create a user:
         exit
 
 ##Configure Lighttpd and PHP-FPM
+
+First, we need to enable PHP-FPM for Lighttpd.  To do this we'll need to uncomment the line _cgi.fix_pathinfo=1_ in _/etc/php5/fpm/php.ini_:
+
+        nano /etc/php5/fpm/php.ini
+This is a very large file and this line is 768 in the _Paths and Directories_ section.  
+The keyboard shortcut Control+c in nano shows the line number.
+
+        ; cgi.fix_pathinfo provides *real* PATH_INFO/PATH_TRANSLATED support for CGI.  $
+        ; previous behaviour was to set PATH_TRANSLATED to SCRIPT_FILENAME, and to not $
+        ; what PATH_INFO is.  For more information on PATH_INFO, see the cgi specs.  Se$
+        ; this to 1 will cause PHP CGI to fix its paths to conform to the spec.  A sett$
+        ; of zero causes PHP to behave as before.  Default is 1.  You should fix your s$
+        ; to use SCRIPT_FILENAME rather than PATH_TRANSLATED.
+        ; http://php.net/cgi.fix-pathinfo
+        cgi.fix_pathinfo=1
+        
 We now need to configure Lighttpd to use PHP-FPM instead of spawn-fcgi.
 To do this, cd to Lighttpd's configuration file directory:
 
