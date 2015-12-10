@@ -98,8 +98,8 @@ The keyboard shortcut `control+c` in nano shows the line number.
 <img src="http://i.imgur.com/JNkP3iz.png" alt="uncommenting line 768" width="600">
 
         
-We now need to configure Lighttpd to use PHP-FPM instead of spawn-fcgi.
-To do this, cd to Lighttpd's configuration file directory:
+We now need to configure Lighttpd to use PHP-FPM instead of its default spawn-fcgi.
+To do this, `cd` to Lighttpd's configuration file directory:
 
         cd /etc/lighttpd/conf-available/
 Then make a backup copy of `15-fastcgi-php.conf`:
