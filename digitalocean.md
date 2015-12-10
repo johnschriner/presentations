@@ -173,7 +173,7 @@ Next, name your wiki and create an admin account with a secure password of at le
 We should go through the next optional page as it concerns licenses, copyright and email settings.
 Here is where you also have options for skins, extensions, and whether users may upload files or not.
 
-The MediaWiki installation will automatically offer the download of a `LocalSettings.php` file.
+The MediaWiki installation will automatically offer the download of a `LocalSettings.php` file.  Save the file locally.
 
 <img src="http://i.imgur.com/9zju96B.png" alt="download LocalSettings.php" width="500">
 
