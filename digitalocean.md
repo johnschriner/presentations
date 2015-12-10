@@ -162,7 +162,7 @@ On the local machine, go to `http://[SERVER_IP]/mediawiki` and start the configu
 
 MediaWiki will perform environmental checks to ensure that MediaWiki can be installed.
 
-Enter in the database information we created above.
+Enter in the database information we created [above](https://github.com/johnschriner/presentations/blob/master/digitalocean.md#configure-mysql-and-create-credentials-for-mediawiki).
 
 <img src="http://i.imgur.com/NFvz9vF.png" alt="MySQL credentials" width="250">
 
