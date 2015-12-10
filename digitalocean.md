@@ -150,6 +150,7 @@ Direct the local web browser to http://localhost/info.php and see that FPM/FastC
 ##Install MediaWiki
 Installing and configuring the newest version of MediaWiki:
 
+        cd /tmp
         wget https://releases.wikimedia.org/mediawiki/1.26/mediawiki-1.26.0.tar.gz
 Extract the archive:        
 
@@ -165,7 +166,7 @@ Mediawiki will perform environmental checks to ensure that Mediawiki can be inst
 Upon connecting MySQL plug in the database information we created above.
 ![]()  <--screenshot
 Click continue to select the default options InnoDB and Binary.
-Next, name your wiki and create an admin account with a secure password of at least 8 characters.
+Next, name your wiki and create an admin account with a secure password of at least 8 characters.  Remember this username and password for administration once installed.
 We should go through the next optional as it concerns licenses and copyright as well as email settings.
 Here is where you also have options for skins, extensions, and whether users may upload files or not.
 
@@ -179,12 +180,14 @@ Going back to the terminal that is connected to the server:
 
         nano /var/www/mediawiki/LocalSettings.php
         
-Control-O to save the file and keep the file named LocalSettings.php
-Once that file is saved, either click the **enter your wiki** link or enter the wiki by going to:
-http://[public IP address]/mediawiki/index.php
+Paste all of the text, press control-o to save the file and keep the file named LocalSettings.php
+This file can be edited to change the name of the MediaWiki or edit many of the configurations from web setup.
+Once that file is saved, either click the **enter your wiki** link or enter the wiki by going to _http://[SERVER_IP]/mediawiki/index.php_
 
-##Securing your wiki with SSL
+##A Note on Adding Extensions
+MediaWiki's [_Get Extensions_](https://www.mediawiki.org/wiki/Category:Extensions) page showcases hundreds of extensions to add to MediaWiki.  Many of these extensions can be setup using a php script and simply editing _LocalSettings.php_.
+
 ##Conclusion
 We now have a secure MediaWiki with Lighttpd instance running on Ubuntu 14.04.
-It's quickly installed and configured.
-              by John Schriner
+It's fairly quickly installed and configured.
+
