@@ -48,7 +48,7 @@ Next, we'll install and configure MySQL database to store the information for th
 Install the newest MySQL using apt-get:
 
         sudo apt-get install mysql-server
-You will be asked to create a root password.  Make sure to remember it or place it in a password manager; we'll need the root password to create an account for MediaWiki.
+You will be asked to create a root password.  Make sure to remember it or place it in a password manager; we'll need the root password for setting up MediaWiki.
 
 MySQL service will start automatically but to check that the service has opened a port you can try:
 
@@ -56,7 +56,7 @@ MySQL service will start automatically but to check that the service has opened 
 
 MySQL will have port 3306 opened.
 
-![nmap shows us which ports are open](http://i.imgur.com/wIfVYNb.png)
+<img src="http://i.imgur.com/wIfVYNb.png" alt="nmap shows us which ports are open" width="400">
 
  
 As MySQL is a service like lighttpd, it can be administered from the command line:
@@ -74,8 +74,7 @@ PHP-FPM is an alternative to Lighttpd's spawn-fcgi PHP FastCGI implementation.  
 After installation we can verify it was properly installed and get the version number:
 
         php -v
-++++++++ADD other PHP check method+++++++
-        
+
 ##Configure MySQL and Create Credentials for MediaWiki
 Log into MySQL as root:
 
@@ -96,14 +95,8 @@ First, we need to enable PHP-FPM for Lighttpd.  To do this we'll need to uncomme
 This is a very large file and this line is 768 in the _Paths and Directories_ section.  
 The keyboard shortcut Control+c in nano shows the line number.
 
-        ; cgi.fix_pathinfo provides *real* PATH_INFO/PATH_TRANSLATED support for CGI.  $
-        ; previous behaviour was to set PATH_TRANSLATED to SCRIPT_FILENAME, and to not $
-        ; what PATH_INFO is.  For more information on PATH_INFO, see the cgi specs.  Se$
-        ; this to 1 will cause PHP CGI to fix its paths to conform to the spec.  A sett$
-        ; of zero causes PHP to behave as before.  Default is 1.  You should fix your s$
-        ; to use SCRIPT_FILENAME rather than PATH_TRANSLATED.
-        ; http://php.net/cgi.fix-pathinfo
-        cgi.fix_pathinfo=1
+<img src="http://i.imgur.com/JNkP3iz.png" alt="uncommenting line 768" width="600">
+
         
 We now need to configure Lighttpd to use PHP-FPM instead of spawn-fcgi.
 To do this, cd to Lighttpd's configuration file directory:
@@ -130,7 +123,7 @@ Edit this file to now read:
         )
 
 
-We'll want to enable the following otherwise we'll get 403-Forbidden errors from the webserver:
+We'll want to enable the modification and reload lighttpd:
 
         sudo lighttpd-enable-mod fastcgi fastcgi-php
         sudo service lighttpd force-reload
@@ -143,8 +136,8 @@ Paste the following line into the file:
 
         <?php phpinfo(); ?>
 
-Direct the local web browser to http://localhost/info.php and see that FPM/FastCGI is now the server API.
-![php5-fpm](http://i.imgur.com/hV1OKMb.png)
+Direct the local web browser to http://[SERVER_IP]/info.php and see that FPM/FastCGI is now the server API.
+<img src="http://i.imgur.com/hV1OKMb.png" alt="php5-fpm" width="300">
 
 
 ##Install MediaWiki
@@ -160,14 +153,15 @@ Create a new mediawiki directory in the webserver root and move the contexts of 
         mkdir -p /var/www/mediawiki
         mv mediawiki-1.26.0/* /var/www/mediawiki
 ###Starting the Web Installation
-On your local machine, we can now go to http://localhost/mediawiki and start the configuration using all of the installed components
-![](http://i.imgur.com/Male16R.png)
+On the local machine, go to http://[SERVER_IP]/mediawiki and start the configuration using all of the installed components
+
+<img src="http://i.imgur.com/Male16R.png" alt="starting mediawiki configuration" width="250">
 
 Mediawiki will perform environmental checks to ensure that Mediawiki can be installed.
 
 Upon connecting MySQL plug in the database information we created above.
 
-![]()  <--screenshot
+![MySQL credentials](http://i.imgur.com/NFvz9vF.png)
 
 Click continue to select the default options InnoDB and Binary.
 
