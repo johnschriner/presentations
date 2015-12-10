@@ -197,12 +197,17 @@ Once that file is saved, either click the _enter your wiki_ link or enter the wi
 
 ##A Note on Adding Extensions and an Example
 MediaWiki's [_Get Extensions_](https://www.mediawiki.org/wiki/Category:Extensions) page showcases hundreds of extensions to add to MediaWiki.  
+
 Generally extensions go in their own subdirectory at `http://[SERVER_IP]/mediawiki/extensions/`.
+
 Before installing extensions, make certain that there is still active development of the extension and that you've read the documentation.
+
 Many of these extensions can be setup using a php script and simply editing _LocalSettings.php_.
 
 The [Maintenance](https://www.mediawiki.org/wiki/Extension:Maintenance) extension is a useful set of scripts for many tasks including cleaning up spam, checking usernames, and checking bad redirects.
+
 Go to the extension's download page and select MediaWiki version 1.26.
+
 Instead of downloading the file to the local machine, click `cancel` on the download dialog and we see that MediaWiki has a snapshot URL for the extension's tar.gz file.
 In the ssh session with the Droplet:
 
