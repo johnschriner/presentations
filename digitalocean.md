@@ -4,7 +4,7 @@
 
 MediaWiki is a popular open source wiki platform that can be used for public or internal collaborative content publishing. MediaWiki is used for many of the most popular wikis on the internet including Wikipedia, the site that the project was originally designed to serve.
 
-In this guide, we will be setting up the latest version of MediaWiki on an Ubuntu 14.04 server. We will use the lighttpd web server to make the actual content available, php-fpm to handle dynamic processing, and mysql to store our wiki's data.
+In this guide, we will be setting up the latest version of MediaWiki on an Ubuntu 14.04 server. We will use the Lighttpd web server to make the actual content available, php-fpm to handle dynamic processing, and mysql to store our wiki's data.
 ##Prerequisites
 
 
@@ -28,7 +28,7 @@ Lighttpd (pronounced *Lighty*) webserver is highly efficient, quick, and easy to
 Install Lighttpd using apt-get:
 
         sudo apt-get install lighttpd
-After installation, the web server will automatically start.  Simply point the browser on your local machine to your Droplet's public IP address and the placeholder page with show up at the default port `80`.
+After installation, the web server will automatically start.  Point the browser on your local machine to your Droplet's public IP address and the placeholder page with show up at the default port `:80`.
 This welcome page explains that configuration files can be found in the directory:
 
         /etc/lighttpd
@@ -45,7 +45,7 @@ Lighttpd can be admininistered from the command line by using the following:
         
 ###Installing MySQL Server
 Next, we'll install and configure MySQL database to store the information for the wiki.
-Install the newest MySQL using apt-get:
+Install the newest MySQL Server using apt-get:
 
         sudo apt-get install mysql-server
 You will be asked to create a root password.  Make sure to remember it or place it in a password manager; we'll need the root password for setting up MediaWiki.
@@ -59,7 +59,7 @@ MySQL will have port 3306 opened.
 <img src="http://i.imgur.com/wIfVYNb.png" alt="nmap shows us which ports are open" width="400">
 
  
-As MySQL is a service like lighttpd and it can be administered from the command line:
+As MySQL is a service like Lighttpd and it can be administered from the command line:
 
         sudo service mysql start
         sudo service mysql stop                
@@ -123,7 +123,7 @@ Edit this file to now read:
         )
 
 
-We'll want to enable the modification and reload lighttpd:
+We'll want to enable the modification and reload Lighttpd:
 
         sudo lighttpd-enable-mod fastcgi fastcgi-php
         sudo service lighttpd force-reload
@@ -148,7 +148,7 @@ Installing and configuring the newest version of MediaWiki:
 Extract the archive:        
 
         tar xvzf mediawiki-*.tar.gz
-Create a new mediawiki directory in the webserver root and move the contexts of mediawiki to it:
+Create a new `mediawiki` directory in the webserver root and move the contexts of the extracted `mediawiki` directory to it:
 
         mkdir -p /var/www/mediawiki
         mv mediawiki-1.26.0/* /var/www/mediawiki
@@ -157,7 +157,7 @@ On the local machine, go to http://[SERVER_IP]/mediawiki and start the configura
 
 <img src="http://i.imgur.com/Male16R.png" alt="starting mediawiki configuration" width="250">
 
-Mediawiki will perform environmental checks to ensure that Mediawiki can be installed.
+MediaWiki will perform environmental checks to ensure that MediaWiki can be installed.
 
 Upon connecting MySQL plug in the database information we created above.
 
