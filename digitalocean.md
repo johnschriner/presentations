@@ -210,7 +210,7 @@ Go to the extension's download page:
 
         https://www.mediawiki.org/wiki/Extension:Maintenance
         
-Click 'Download snapshot' and select 'MediaWiki version 1.26'.  Click 'Continue'.
+Click _Download snapshot_ and select `MediaWiki version 1.26`.  Click _Continue_.
 
 Instead of downloading the file to the local machine, click `cancel` on the download dialog and we see that MediaWiki has a snapshot URL for the extension's tar.gz file.
 In the ssh session with the Droplet:
