@@ -59,7 +59,7 @@ MySQL will have port 3306 opened.
 <img src="http://i.imgur.com/wIfVYNb.png" alt="nmap shows us which ports are open" width="400">
 
  
-As MySQL is a service like Lighttpd and it can be administered from the command line:
+MySQL is a service like Lighttpd and it can be administered from the command line:
 
         sudo service mysql start
         sudo service mysql stop                
@@ -80,7 +80,7 @@ After installation we can verify it was properly installed and get the version n
 Log into MySQL as root:
 
         mysql -u root -p
-At the mysql prompt now, we can add do the following to create a user:
+At the mysql prompt now, we do the following to create a user:
 
         CREATE DATABASE mediawikidb;
         CREATE USER mediawikiuser@localhost IDENTIFIED BY 'mediawikipassword';
@@ -124,7 +124,7 @@ Edit this file to now read:
         )
 
 
-We'll want to enable the modification and reload Lighttpd:
+We'll want to enable the modification and then reload Lighttpd:
 
         sudo lighttpd-enable-mod fastcgi fastcgi-php
         sudo service lighttpd force-reload
@@ -168,10 +168,10 @@ Enter in the database information we created [above](https://github.com/johnschr
 
 Click _continue_ to select the default options `InnoDB` and `Binary`.
 
-Next, name your wiki and create an admin account with a secure password of at least 8 characters.  Remember this username and password for administration once MediaWiki is installed.
+Next, name the wiki and create an admin account with a secure password of at least 8 characters.  Remember this username and password for administration once MediaWiki is installed.
 
-We should go through the next optional page as it concerns licenses, copyright and email settings.
-Here is where you also have options for skins, extensions, and whether users may upload files or not.
+We should go through the next optional page as it concerns licenses, copyright, and email settings.
+Here is where you also have options for skins, extensions, and whether or not users may upload files.
 
 The MediaWiki installation will automatically offer the download of a `LocalSettings.php` file.  Save the file locally.
 
@@ -186,7 +186,7 @@ Next:
         
 Copy all of the text from that file starting with **<?php**
 
-Going back to the terminal that is connected to the server:
+Going back to the terminal that is connected via SSH to the server:
 
         nano /var/www/mediawiki/LocalSettings.php
         
@@ -198,15 +198,19 @@ Once that file is saved, either click the _enter your wiki_ link or enter the wi
 ##A Note on Adding Extensions and an Example
 MediaWiki's [_Get Extensions_](https://www.mediawiki.org/wiki/Category:Extensions) page showcases hundreds of extensions to add to MediaWiki.  
 
-Generally extensions go in their own subdirectory at `http://[SERVER_IP]/mediawiki/extensions/`.
+Generally, extensions go in their own subdirectory at `http://[SERVER_IP]/mediawiki/extensions/`.
 
 Before installing extensions, make certain that there is still active development of the extension and that you've read the documentation.
 
-Many of these extensions can be setup using a php script and simply editing _LocalSettings.php_.
+Many of these extensions can be setup by moving a directory into '/var/www/mediawiki/extensions/' and simply editing _LocalSettings.php_.
 
 The [Maintenance](https://www.mediawiki.org/wiki/Extension:Maintenance) extension is a useful set of scripts for many tasks including cleaning up spam, checking usernames, and checking bad redirects.
 
-Go to the extension's download page and select MediaWiki version 1.26.
+Go to the extension's download page:
+
+        https://www.mediawiki.org/wiki/Extension:Maintenance
+        
+Click 'Download snapshot' and select 'MediaWiki version 1.26'.  Click 'Continue'.
 
 Instead of downloading the file to the local machine, click `cancel` on the download dialog and we see that MediaWiki has a snapshot URL for the extension's tar.gz file.
 In the ssh session with the Droplet:
@@ -214,6 +218,8 @@ In the ssh session with the Droplet:
         cd /tmp
         wget [the complete URL for the tar.gz file]
         tar -xzf [the tar.gz file] -C /var/www/mediawiki/extensions/
+
+The latest snapshot for the extension is now in the extensions directory.
 
 Lastly, for extensions we'll need to edit the `LocalSettings.php` file:
 
@@ -249,6 +255,6 @@ By clicking on the link for `Wiki Interface` or navigating to:
 ##Conclusion
 We now have the latest MediaWiki with Lighttpd running on Ubuntu 14.04.
 
-We've added an extension and now we have to start creating content.
+We've added a useful extension using the typical method.  Now we have to start creating content.
 <p align="right">by John Schriner</p> 
 
