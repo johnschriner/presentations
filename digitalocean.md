@@ -21,7 +21,7 @@ It's good practice to make certain that your system is up to date with:
         sudo apt-get upgrade
 
 ##Install the Server Components
-We will be setting up and configuring a **L**inux, **L**ightppd, **M**ySQL, **P**HP (LLMP) stack.  We're installing each component separately.
+We will be setting up and configuring a **L**inux, **L**ighttpd, **M**ySQL, **P**HP (LLMP) stack.  We're installing each component separately.
 
 ###Installing Lighttpd
 Lighttpd (pronounced *Lighty*) webserver is highly efficient, quick, and easy to install.
