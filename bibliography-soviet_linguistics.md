@@ -1,4 +1,4 @@
-##Soviet Linguistics -- An annotated bibliography for accessible English-language resources -- _Ordered thematically_
+##Soviet Linguistics - An annotated bibliography for accessible English-language resources - _Ordered thematically_
 ---
 
 
