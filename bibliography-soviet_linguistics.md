@@ -1,5 +1,5 @@
 ##Soviet Linguistics - An annotated bibliography for accessible English-language resources - _Ordered thematically_
-
+___
 When the Bolsheviks came to power in 1917, they began to make language policy for the hundreds of official and minority languages across the country.  These are all accessible texts and all are English-language.  This brief and non-exhaustive bibliography will look at particular language policy, how linguistics and academics changed, and the quest for a "Soviet linguistics."
 
 ##General Introduction and Surveys of Languages
