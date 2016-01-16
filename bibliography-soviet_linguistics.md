@@ -5,7 +5,7 @@ These are all accessible texts and all are English-language.
 
 This area is interesting for the following reasons:  it was a giant landmass that the Bolshevik's inherited; the Bolsheviks had to fight a civil war on top of ending their part in WWII (after sending 25 million Russians to their graves); the Muslim Turkic-world comprised much of central Asia with its own cultures; most languages had no standard written form.
 
-Stemming from Nicholas Yakovlevich Marr's [....]
+Stemming from Nicholas Yakovlevich Marr's [....]_
 
 ##General Introduction and Surveys of Languages
 -
