@@ -21,7 +21,7 @@ Brandist, C., & Chown, K. (2010). Politics and the theory of language in the USS
 
 _This is a chronological set of essays that range from topics like pre-revolution linguistics to the bitter reaction to "bourgeois linguistics" in the early years of the revolution up to the 1930's.  One essay focuses on the academics of Stalin and nation-building.  Surprisingly little is mentioned of Marr and Japhetism except for an occasional awareness of official dogma.
 
-[https://github.com/johnschriner/presentations/files/93033/notes.-.Politics.and.the.Theory.of.Language.in.the.USSR.1917-1938._.The.Birth.of.Sociological.Linguistics.pdf](Here) are my notes and hightlights from the text.
+[Here](https://github.com/johnschriner/presentations/files/93033/notes.-.Politics.and.the.Theory.of.Language.in.the.USSR.1917-1938._.The.Birth.of.Sociological.Linguistics.pdf) are my notes and hightlights from the text.
 
 ###Philosophy of Language, Nicholas Yakovlevich Marr, and Marxism
 -
