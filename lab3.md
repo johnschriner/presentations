@@ -7,4 +7,4 @@ Here is what we're going to be setting up:
 
 I decided to just setup a new and pristine Security Onion from an .iso.
 I update it with 
-<code>sudo soup</code>
+<code>sudo soup</code> and need to setup the network adapters.
