@@ -13,4 +13,5 @@ I gave each adapter static IPs by editing /etc/network/interfaces with nano.
 Everything could ping their gateway/router but I wasn't getting internet from the bridged m0n0wall1 until I edited the remnants of WAN configurations from Lab 2.  I also added DNS 8.8.8.8 on m0n0wall1.
 
 The appliances are all set up and now have internet access to move forward with installing SiLK et al.
+![VirtualBox Environment](https://github.com/johnschriner/presentations/VirtualBox-Environment.png) 
 
