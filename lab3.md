@@ -19,3 +19,5 @@ The appliances are all set up and now have internet access to move forward with 
 Notes: Something I found was that 8gb RAM may not be enough to handle all of these machines being on at the same time.  We'll see, but I had to limit the m0n0walls to 512mb and the Ubuntu machines are very sluggish at 1024mb RAM.
 
 ###Installing SiLK, **Y**et **A**nother **F**lowmeter and setting up the sensors
+
+<video>https://github.com/johnschriner/presentations/blob/master/silk-make.mov</video>
