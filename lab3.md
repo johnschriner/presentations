@@ -20,4 +20,4 @@ Notes: Something I found was that 8gb RAM may not be enough to handle all of the
 
 ###Installing SiLK, **Y**et **A**nother **F**lowmeter and setting up the sensors
 
-<video>https://github.com/johnschriner/presentations/blob/master/silk-make.mov</video>
+![Make'ing SiLK](https://github.com/johnschriner/presentations/blob/master/silk-make.gif)
