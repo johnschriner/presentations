@@ -6,7 +6,7 @@ Here is what we're going to be setting up:
 ![The Setup](https://github.com/johnschriner/presentations/blob/master/the_setup.png )
 
 I decided to just setup a new and pristine Security Onion from an .iso.
-I update it with 
+I updated it with 
 <code>sudo soup</code> and proceeded to setup the network adapters.
 
 I gave each adapter static IPs by editing /etc/network/interfaces with nano.
@@ -21,3 +21,12 @@ Notes: Something I found was that 8gb RAM may not be enough to handle all of the
 ###Installing SiLK, **Y**et **A**nother **F**lowmeter and setting up the sensors
 
 ![Make'ing SiLK](https://github.com/johnschriner/presentations/blob/master/silk-make.gif)
+
+I installed and edited silk.conf, sensors.conf, and rwflowpack.conf.
+As cautioned in the Lab3 notes, eth0 _had_ lost its 192.168.1.104 IP address. Naturally rwflowpack failed.
+
+In <code>/etc/network/interfaces</code> I changed eth0 from manual to dhcp like eth1.
+![Switching to DHCP](https://github.com/johnschriner/presentations/blob/master/switched_manual_to_dhcp.png)
+
+rwflowpack runs with an [OK] now.
+
