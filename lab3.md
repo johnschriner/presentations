@@ -43,4 +43,7 @@ I have tried each and, altough I don't get results, I get no error messages:
 
 ###Next issue:
 I had to explicitly add the path to site config:
-![Explicitly add path to site config](https://github.com/johnschriner/presentations/blob/master/implicitly_adding_site_config.png )
+![Explicitly add path to site config](https://github.com/johnschriner/presentations/blob/master/implicitly_adding_site_config.png)
+
+Results: Nothing so far, but I'll try different IP's and different configs:
+![Top Websites output](https://github.com/johnschriner/presentations/blob/master/TopWebsites.png)
