@@ -31,5 +31,12 @@ In <code>/etc/network/interfaces</code> I changed eth0 from manual to dhcp like 
 rwflowpack runs with an [OK] now.
 
 ##Issues
+We have this issue determining which IP should be used for eth0 or eth1:
 ![Security Onion IP's; 105 should be the monitoring VM?](https://github.com/johnschriner/presentations/blob/master/securityonionIPs.png)
+
+I have tried each and, altough I don't get results, I get no error messages:
 ![Editing the nohup command to reflect that](https://github.com/johnschriner/presentations/blob/master/192.168.1.105_for_eth1.png)
+
+###Next issue:
+I had to explicitly add the path to site config:
+![Explicitly add path to site config](https://github.com/johnschriner/presentations/blob/master/implicitly_adding_site_config.png )
