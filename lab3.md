@@ -31,6 +31,10 @@ In <code>/etc/network/interfaces</code> I changed eth0 from manual to dhcp like 
 rwflowpack runs with an [OK] now.
 
 ##Issues
+
+We had to make sure that Security Onion IPs are using DHCP in /etc/network/interfaces.
+
+
 We have this issue determining which IP should be used for eth0 or eth1:
 ![Security Onion IP's; 105 should be the monitoring VM?](https://github.com/johnschriner/presentations/blob/master/securityonionIPs.png)
 
