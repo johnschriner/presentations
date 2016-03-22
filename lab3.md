@@ -30,3 +30,6 @@ In <code>/etc/network/interfaces</code> I changed eth0 from manual to dhcp like 
 
 rwflowpack runs with an [OK] now.
 
+##Issues
+![Security Onion IP's; 105 should be the monitoring VM?](https://github.com/johnschriner/presentations/blob/master/securityonionIPs.png)
+![Editing the nohup command to reflect that](https://github.com/johnschriner/presentations/blob/master/192.168.1.105_for_eth1.png)
