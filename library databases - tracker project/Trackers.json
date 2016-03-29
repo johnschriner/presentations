@@ -1,0 +1,179 @@
+{ 
+    "_id" : ObjectId("56f2a2ef9f1c17fe0997fcef"), 
+    "vendor" : "JSTOR", 
+    "description" : "Humanities and history focused database", 
+    "trackers" : [
+        "Adobe TagManager", 
+        "Open X", 
+        "Media Optimizer (Adobe)", 
+        "Adobe Test & Target", 
+        "iPerceptions", 
+        "New Relic"
+    ], 
+    "tags" : [
+        "advertising", 
+        "customer interaction", 
+        "site analytics"
+    ], 
+    "grade" : "B"
+}
+{ 
+    "_id" : ObjectId("56f2a53f9f1c17fe0997fcf0"), 
+    "vendor" : "EBSCO", 
+    "description" : "Multidisciplinary collection of databases", 
+    "trackers" : [
+        "Typekit by Adobe", 
+        "Google Analytics"
+    ], 
+    "tags" : [
+        "essential", 
+        "site analytics"
+    ], 
+    "grade" : "A"
+}
+{ 
+    "_id" : ObjectId("56f2a5d49f1c17fe0997fcf1"), 
+    "vendor" : "Gale", 
+    "description" : "Multidisciplinary collection of databases", 
+    "trackers" : [
+        "Google+", 
+        "Qualtrix", 
+        "Digital Analytix", 
+        "Google Analytics"
+    ], 
+    "tags" : [
+        "social media", 
+        "site analytics"
+    ], 
+    "grade" : "A"
+}
+{ 
+    "_id" : ObjectId("56f2e7ba9f1c17fe0997fcf3"), 
+    "vendor" : "American Chemical Society", 
+    "description" : "Chemical and related sciences", 
+    "trackers" : [
+        "DoubleClick", 
+        "SnapEngage", 
+        "Errorception", 
+        "Google Analytics", 
+        "Twitter"
+    ], 
+    "grade" : "C", 
+    "tags" : [
+        "social media", 
+        "site analytics"
+    ]
+}
+{ 
+    "_id" : ObjectId("56f2e88d9f1c17fe0997fcf4"), 
+    "vendor" : "Artstor", 
+    "description" : "Image database", 
+    "trackers" : [
+        "ClickDimensions", 
+        "Google Translate", 
+        "Google Analytics"
+    ], 
+    "grade" : "C", 
+    "tags" : [
+        "advertising", 
+        "customer interaction", 
+        "site analytics"
+    ]
+}
+{ 
+    "_id" : ObjectId("56f2e9c09f1c17fe0997fcf5"), 
+    "vendor" : "Alexander Street Press", 
+    "description" : "Several specialized databases including 'American History in Video' and 'Black Thought and Culture'", 
+    "trackers" : "Google Analytics", 
+    "grade" : "A", 
+    "tags" : "site analytics"
+}
+{ 
+    "_id" : ObjectId("56f2edc69f1c17fe0997fcf6"), 
+    "vendor" : "Facts on File", 
+    "description" : "Owner is Infobase Learning; several databases in history and literature", 
+    "trackers" : [
+        "Google Analytics", 
+        "Kaltura", 
+        "Chartbeat"
+    ], 
+    "grade" : "C", 
+    "notes" : "Different advertising networks on different parts of the site", 
+    "tags" : [
+        "site analytics", 
+        "advertising"
+    ]
+}
+{ 
+    "_id" : ObjectId("56f2ee1f9f1c17fe0997fcf8"), 
+    "vendor" : "Books in Print", 
+    "description" : "A database of.. books in print for librarians and booksellers", 
+    "trackers" : [
+        "Google Analytics"
+    ], 
+    "grade" : "A", 
+    "notes" : "", 
+    "tags" : "site analytics"
+}
+{ 
+    "_id" : ObjectId("56f2f0e69f1c17fe0997fcf9"), 
+    "vendor" : "Cambridge University Press", 
+    "description" : "A number of databases including 'Cambridge Companions' for ebooks and 'Cambridge Journals' for journals", 
+    "trackers" : [
+        "AddThis", 
+        "OpenX", 
+        "Google Analytics", 
+        "Facebook Connect"
+    ], 
+    "grade" : "C", 
+    "notes" : "The ebook platform has only analytics whereas the journal pages have advertising trackers", 
+    "tags" : [
+        "advertising", 
+        "site analytics", 
+        "social networking"
+    ]
+}
+{ 
+    "_id" : ObjectId("56f2f3919f1c17fe0997fcfa"), 
+    "vendor" : "Checkpoint", 
+    "description" : "A Thomson Reuters tax and accounting database", 
+    "grade" : "A", 
+    "notes" : "No trackers, but check other TR databases"
+}
+{ 
+    "_id" : ObjectId("56f2f4829f1c17fe0997fcfb"), 
+    "vendor" : "Columbia International Affairs Online", 
+    "description" : "A Columbia University Press database with articles in international affairs", 
+    "trackers" : [
+        "DoubleClick", 
+        "Twitter", 
+        "Typekit by Adobe", 
+        "Google Analytics"
+    ], 
+    "grade" : "C", 
+    "notes" : "", 
+    "tags" : [
+        "advertising", 
+        "essential", 
+        "site analytics"
+    ]
+}
+{ 
+    "_id" : ObjectId("56f2f9a29f1c17fe0997fcfc"), 
+    "vendor" : "CQ Researcher", 
+    "description" : "CQ Press (Owned by Sage)- a database for current events and reports", 
+    "trackers" : [
+        "AddThis", 
+        "CheckM8", 
+        "Typekit by Adobe", 
+        "Google Tag Manager", 
+        "Google Analytics"
+    ], 
+    "grade" : "A", 
+    "notes" : "", 
+    "tags" : [
+        "advertising", 
+        "essential", 
+        "site analytics"
+    ]
+}
