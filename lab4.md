@@ -21,4 +21,4 @@ And we successfully sent the packet and received a response:<p>
 One of the cooler things I discovered is <code>%save</code> and <code>%load</code> to save and load .py files for use in iPython.<br>
 Of course, it's exporting all the commands from the notebook--even the mistakes--so it's necessary to scrub some of the commands with nano or gedit.<p> 
 <img src="images/Lab4-6.png" width="500"><p>
-I can certainly see how these are the fundamentals to crafting packets.  Of course since it's in python, the next steps could be conditionals and ways to automate network tasks, tests, even the start of penetration testing.
+I can certainly see how these are the fundamentals to crafting packets.  Of course since it's in python, the next steps could be conditionals, monitors, and ways to automate network tasks--even the start to penetration testing.
