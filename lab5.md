@@ -22,7 +22,7 @@ Next, to setup pyenv and start sending packets!
 
 I did a <code>whoami</code> to see which home to reference in root's .bashrc.
 I did <code>sudo su</code> to make sure I was exploring the directory as root to edit .bashrc:
-![Root's .bashrc edited](/images/root's_bashrc.png)
+![Root's .bashrc edited](/images/roots_bashrc.png)
 
 
 
