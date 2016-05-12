@@ -24,13 +24,13 @@ I did a <code>whoami</code> to see which home to reference in root's .bashrc.
 I did <code>sudo su</code> to make sure I was exploring the directory as root to edit .bashrc:
 ![Root's .bashrc edited](/images/roots_bashrc.png)
 
-As these machines are on an internal network, I momentarily gave my ubuntu-LAN machine a bridged network to download pyenv.
+As these machines are on an internal network, I momentarily gave my ubuntu-LAN machine a bridged network to download pyenv. I also had to install both scapy, python-netifaces, and nmap as this is a new VM.  I then shutdown and removed the adapter because I want everything to be in this internal network.
 
 I then installed pyenv using this resource: http://opencafe.readthedocs.io/en/latest/getting_started/pyenv/
 I found that I needed to install curl.  Once cloned and place in my home directory from Git, to run pyenv, I needed to navigate to <em>/home/d4cs-student/.pyenv/bin</em> where I could then <code>./pyenv install 2.7.6
 </code> and <code>./pyenv global 2.7.6</code>.
 
-It appears I _did_ the editing to root's .bashrc out-of-order, but the config should still work given that _now_ it knows where the python environment is.  I also had to install both scapy and python-netifaces as this is a new VM.
+It appears I _did_ the editing to root's .bashrc out-of-order, but the config should still work given that _now_ it knows where the python environment is.  
 
 Edit: no, upon installation of pyenv, something overwrote root's .bashrc.
 
