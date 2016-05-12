@@ -24,6 +24,49 @@ I did a <code>whoami</code> to see which home to reference in root's .bashrc.
 I did <code>sudo su</code> to make sure I was exploring the directory as root to edit .bashrc:
 ![Root's .bashrc edited](/images/roots_bashrc.png)
 
+As these machines are on an internal network, I momentarily gave my ubuntu-LAN machine a bridged network to download pyenv.
+
+I then installed pyenv using this resource: http://opencafe.readthedocs.io/en/latest/getting_started/pyenv/
+I found that I needed to install curl.  Once cloned and place in my home directory from Git, to run pyenv, I needed to navigate to <em>/home/d4cs-student/.pyenv/bin</em> where I could then <code>./pyenv install 2.7.6
+</code> and <code>./pyenv global 2.7.6</code>.
+
+It appears I _did_ the editing to root's .bashrc out-of-order, but the config should still work given that _now_ it knows where the python environment is.  I also had to install both scapy and python-netifaces as this is a new VM.
+
+Edit: no, upon installation of pyenv, something overwrote root's .bashrc.
+
+To find it again, I need to remember to <code>ls -a</code> to see the hidden files:
+![ls -a](/images/LAB5-using_ls-a.png)
+
+I went through and again edited it, but I still had permission errors when using scapy (probably because I didn't log out or reboot).
+
+I decided to simply <code>sudo python</code> (as you would be running as root in Kali or most pen-testing OS's anyway) and scapy worked great!
+
+To suppress many: "WARNING: Mac address to reach destination not found. Using broadcast" I added the following to the import modules  [2]:
+
+    import logging
+    logging.getLogger("scapy.runtime").setLevel(logging.ERROR)
+
+This cleans up the output greatly.
+
+Firstly, we'll send along an ICMP packet and see how the other Ubuntu VM responds:
+
+![python shell, scapy, and an ICMP packet](/images/LAB5-scapy-ICMP.png)
+
+Next, we'll send a TCP packet and see the response:
+
+![python shell, scapy, and a TCP packet](/images/LAB5-scapy-TCP.png)
+
+**To do:  find out why it sends "ftp_data"--is it sending this data to each port in the scan via TCP?**
+
+I decided to run nmap to see if it could find any open ports:
+
+![using nmap on remote Ubuntu VM](/images/LAB5-using_nmap.png)
+
+
+
+
+
+
 
 
 Citations for pull request:
@@ -34,3 +77,4 @@ Singh, R. R., & Tomar, D. S. (2015). Network Forensics: Detection and Analysis o
 
 
 [1]: http://www.ijcncs.org/published/volume3/issue2/p2_3-2.pdf        "Singh and Tomar, 2015"
+[2]: http://resources.infosecinstitute.com/what-is-scapy/
