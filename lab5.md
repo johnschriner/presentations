@@ -37,14 +37,14 @@ I found that I needed to install curl.  Once cloned and placed in my home direct
 
 It appears I _did_ the editing to root's .bashrc out-of-order, but the config should still work given that _now_ it knows where the python environment is.  
 
-Edit: no, upon installation of pyenv, something overwrote root's .bashrc.
+Edit: no, upon installation of pyenv, something overwrote root's .bashrc.  Which is crazy to think that a program can overwrite that without a normal keep-or-replace dialog!
 
 To find it again, I need to remember to <code>ls -a</code> to see the hidden files:
 ![ls -a](/images/LAB5-using_ls-a.png)
 
 I went through and again edited it, but I still had permission errors when using scapy (probably because I didn't log out or reboot).
 
-I decided to simply <code>sudo python</code> (as you would be running as root in Kali or most pen-testing OS's anyway) and scapy worked great!
+I decided to simply <code>sudo python</code> (as you would be running as root in Kali or most pen-testing OS's anyway) and scapy worked great! (And I will go back after I finish and get pyenv working, I promise)
 
 To suppress many: "WARNING: Mac address to reach destination not found. Using broadcast" I added the following to the import modules  [2]:
 
@@ -74,7 +74,7 @@ I decided to run nmap to see if it could find any open ports:
 
 
 
-Citations for pull request:
+Citations for Lab5 issue:
 
 Allen, J. M. (2008). OS and Application Fingerprinting Techniques. Retrieved May 9, 2016, from https://www.sans.org/reading-room/whitepapers/authentication/os-application-fingerprinting-techniques-32923 
 
