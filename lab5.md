@@ -11,7 +11,7 @@ Both Ubuntu machines on the internal network:
 ![Both ubuntu machines on internal network](/images/ubuntu-wan_and_lan_on_internal_network.png)
 
 m0n0wall is also on the internal network 'intnet':
-![m0n0wall also on internal network 'intnet'](/images/m0n0wall_on_internal_network.png)
+Edit: Removed unnecessary image--we know what m0n0wall GUI looks like.
 
 I had to reset m0n0wall to factory defaults with the IP 192.168.1.1.  Next, I added that default gateway to both ubuntu machines and rebooted. They have IPs of 192.168.1.104 and 192.168.1.105.
 Please note:  for at least one of the machines I have to do the following to get the correct IP (could be an artifact from the last lab):
