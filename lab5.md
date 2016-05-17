@@ -61,7 +61,7 @@ Next, we'll send a TCP packet and see the response:
 
 ![python shell, scapy, and a TCP packet](/images/LAB5-scapy-TCP.png)
 
-**To do:  find out why it sends "ftp_data"--is it sending this data to each port in the scan via TCP?**
+**To do:  find out why it sends "ftp_data"--is it sending this data to each IP in the scan via TCP?**
 
 I decided to run nmap to see if it could find any open ports:
 
