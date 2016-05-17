@@ -59,11 +59,18 @@ Note: <code> from scapy.all import *</code> is necessary as <code>from scapy imp
             counter+=1
             send(fragment)
 
-[insert screencap]
+![Scapy - Nice display!](/images/Lab6-DEADBEEF.png)
 
-The attacking machine sent 406 packets with the payload "DEADBEEF" and it set the MF flag.
+The attacking machine sent 406 packets with the payload "DEADBEEF" and it set the MF (More Fragment) bit flag.
 
 Q1 (B):  IP(src=target,dst=target)/TCP(sport=135,dport=135)
+From the attacker side, spoofing the source of the packet:
+
+![Spoofed source](/images/Lab6-spoofed_src_and_des.png)
+
+There's no explicit payload so I'm curious to see what it looks like on the target machine's end.
+
+That's next!
 
 
 
