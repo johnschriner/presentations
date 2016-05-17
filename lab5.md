@@ -68,8 +68,19 @@ I decided to run nmap to see if it could find any open ports:
 ![using nmap on remote Ubuntu VM](/images/LAB5-using_nmap.png)
 
 
+Lastly:
+Unfiltered:
+![Unfiltered:](/images/Lab5-unfiltered1.png)
+
+Unfiltered:
+![Unfiltered:](/images/Lab5-unfiltered2.png)
+
+Filtered:
+![Filtered:](/images/Lab5-filtered.png)
 
 
+To do:
+Get the zombie reporting working properly--figure out <code>.id</code>
 
 
 
