@@ -110,6 +110,8 @@ Note to self:
 
 Look into using scapy's <code>arpcachepoison()</code>
 
+Edit: No success with arpcachepoison with either specifying MACs or IPs.
+
 
 
 
