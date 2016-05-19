@@ -67,7 +67,7 @@ I decided to run nmap to see if it could find any open ports:
 
 ![using nmap on remote Ubuntu VM](/images/LAB5-using_nmap.png)
 
-I will want to open some ports--for example add a mongodb, ssh, or ftp server to open up ports.  Or I can use Metasploitable (as Dave suggested) as a target machine.
+I will want to open some ports--for example add a mongodb, ssh, or ftp server to open up ports.  Or I can use Metasploitable (as Dave suggested) as a target machine.  I added mongodb and its service runs on the default port 3306.
 
 
 Lastly:
