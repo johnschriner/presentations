@@ -68,9 +68,10 @@ From the attacker side, spoofing the source of the packet:
 
 ![Spoofed source](/images/Lab6-spoofed_src_and_des.png)
 
-There's no explicit payload so I'm curious to see what it looks like on the target machine's end.
+On the target side I did <code>sudo tcpdump -vv icmp</code> for Warmup Exercise 1 (with the payload) and received the following when attacked from first Ubuntu machine:
 
-That's next!
+![DEADBEEF payload on target!](/images/Lab6-DEADBEEF_on_target.png)
+
 
 
 
