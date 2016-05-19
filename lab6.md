@@ -102,7 +102,7 @@ m0n0wall.local has a MAC address of 08:00:27:f2:0f:ab
 **_Q6. Complete the program by adding lines to the arp_callback method so as to fully specify the ARP reply; you can list the fields in an ARP packet by doing ls(ARP) in Scapy. Explain the rationale for each of your lines of code._**
 
 So far, I have:
-  arpout = ARP(op=1, hwdst="impersonating_mac",hwsrc=target_mac, pdst=192.168.1.104)
+    arpout = ARP(op=1, hwdst="impersonating_mac",hwsrc=target_mac, pdst=192.168.1.104)
 but I need to fully specify the rest of the values.  Also:
 
 Note to self:
