@@ -36,7 +36,7 @@ Artist's rendering:
           <__________________<_/    ¯¯¯
 
 
-Q1 (A): <code>fragment(IP(dst=target)/ICMP()/("DEADBEEF"*25000))</code>
+Warmup Exercise (A): <code>fragment(IP(dst=target)/ICMP()/("DEADBEEF"*25000))</code>
 
 This command will send the payload of "DEADBEEF" 25000 times to the target machine.  By adding in a fragsize, it will fragment into byte segments of 500.
 
@@ -63,7 +63,7 @@ Note: <code> from scapy.all import *</code> is necessary as <code>from scapy imp
 
 The attacking machine sent 406 packets with the payload "DEADBEEF" and it set the MF (More Fragment) bit flag.
 
-Q1 (B):  <code>IP(src=target,dst=target)/TCP(sport=135,dport=135)</code>
+Warmup Exercise (B):  <code>IP(src=target,dst=target)/TCP(sport=135,dport=135)</code>
 From the attacker side, spoofing the source of the packet:
 
 ![Spoofed source](/images/Lab6-spoofed_src_and_des.png)
