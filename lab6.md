@@ -72,6 +72,46 @@ On the target side I did <code>sudo tcpdump -vv icmp</code> for Warmup Exercise 
 
 ![DEADBEEF payload on target!](/images/Lab6-DEADBEEF_on_target.png)
 
+**_Q1: What are the IP/MAC addresses of each VM and the host? Comment on the three pairs of addresses, their relationship to each other; how might these values have been assigned? What do the VMs and host believe is the default gateway?_**
+
+The attacking machine has an IP of 192.168.1.105.  The target has 192.168.1.104.  m0n0wall has an IP of 192.168.1.1 and it's the known gateway for both Ubuntu machines.  m0n0wall assigns the IPs via DHCP that I set up using its GUI.
+
+**_Q2. Examine the arp table (arp –a –n) on VM#1 and report any entries you find._**
+
+I did some research on arp with <code>man arp</code>.
+Unfortunately <code>arp –a –n</code> complains that "-a" is an unknown host but <code>arp</code> provides the table fine.
+The only entry is that of the m0n0wall gateway.
+
+**_Q3. Ping VM#2 from VM#1 and report any changes to the state of the ARP table after the ping._**
+
+Before pinging the target machine, there was only the gateway registered in the cache, but after a successful ping the target with its MAC address was registered in the Arp cache.
+
+**_Q4. Manually delete the entry for the VM#2 machine in VM#1s ARP table (arp –d <ip>). Then, run tcpdump or wireshark on VM#2 to view the network traffic. Ping VM#2 again from VM#1. Report on the traffic that you see and use it to explain the way in which VM#1 obtains VM#2's MAC address._**
+
+<code>arp -d 192.168.1.104</code> successfully removed the entry.
+
+<code>tcpdump -vv icmp</code> on the target machine revealed:
+
+![tcpdump of ping](/images/Lab6-tcpdump_ping.png)
+
+**_Q5. From VM#1, using everything observed so far, determine the MAC address of the gateway._**
+
+I believe when I used dhclient to get an IP on boot it registered the MAC address of the gateway in the ARP cache:
+m0n0wall.local has a MAC address of 08:00:27:f2:0f:ab
+
+**_Q6. Complete the program by adding lines to the arp_callback method so as to fully specify the ARP reply; you can list the fields in an ARP packet by doing ls(ARP) in Scapy. Explain the rationale for each of your lines of code._**
+
+So far, I have:
+  arpout = ARP(op=1, hwdst="impersonating_mac",hwsrc=target_mac, pdst=192.168.1.104)
+but I need to fully specify the rest of the values.  Also:
+
+Note to self:
+Look into using scapy's <code>arpcachepoison()</code>
+
+
+
+
+
 
 
 
