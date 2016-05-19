@@ -1,4 +1,4 @@
-##Lab 6 - Scapy Attacks on ARP
+##Lab 6 - Scapy Attacks on ARP (leading to MITM)
 
 As in the previous lab, I have two Ubuntu VM's on an internal network with m0n0wall assigning IPs via DHCP.
 
