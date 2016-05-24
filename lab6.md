@@ -196,8 +196,7 @@ The target's ARP cache has been successfully poisoned:
 
 I would look into work that has already been done in Bro scripting or another comparable IDS. [2]  I would look into current research into _active_ techniques to check each machine's ARP cache for suspicious gateways.  As far as using Scapy for this, I'd be happy to see how exactly this can be done!
 
-
-
+To do:  Look into Snort (Arpspoof), Arpwatch, XArp, Antidote.. and the other side: Arpoison, Ettercap, and Cain & Abel.
 
 
 [1]: http://rtoodtoo.net/fragmented-ip-packet-forwarding/
