@@ -115,6 +115,7 @@ Edit: No success with arpcachepoison with either specifying MACs or IPs.
 Upon troubleshooting some errors in coding and other little things I realized that the biggest problem was that my two Ubuntu machines had the same MAC address--that will certainly confound the exercise.
 
 After changing the MAC on my attacker machine, it didn't immediately come up until I pulled it up with:
+
     ifconfig -a
     ifconfig eth3 up
 
