@@ -179,7 +179,8 @@ if len(sys.argv) !=3:
 
 #wait for up to 10 arps and call the arp_callback for each
 while True:
-	sniff(prn=arp_callback, filter="arp", count= 10)~~~~
+	sniff(prn=arp_callback, filter="arp", count= 10)
+~~~~	
 
 The ARP response from the attacking machine:
 
@@ -191,33 +192,5 @@ The victim machine now thinks that the attacker is the gateway.  So when the vic
 The target's ARP cache has been successfully poisoned:
 ![ARP cache successfully poisoned](/images/Lab6-ARP_cache_poisoned.png)
 
+**_Q7: Suppose that as a network administrator you wanted to write a SCAPY script that would detect an ARP spoofing attack such as the one conducted by arp.py. Give a high-level description of how your SCAPY script would work._**
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[1]: http://rtoodtoo.net/fragmented-ip-packet-forwarding/
