@@ -78,13 +78,13 @@ The attacking machine has an IP of 192.168.1.105.  The target has 192.168.1.104.
 
 **_Q2. Examine the arp table (arp –a –n) on VM#1 and report any entries you find._**
 
-I did some research on arp with <code>man arp</code>.
+I did some research on ARP with <code>man arp</code>.
 Unfortunately <code>arp –a –n</code> complains that "-a" is an unknown host but <code>arp</code> provides the table fine.
 The only entry is that of the m0n0wall gateway.
 
 **_Q3. Ping VM#2 from VM#1 and report any changes to the state of the ARP table after the ping._**
 
-Before pinging the target machine, there was only the gateway registered in the cache, but after a successful ping the target with its MAC address was registered in the Arp cache.
+Before pinging the target machine, there was only the gateway registered in the cache, but after a successful ping the target with its MAC address was registered in the ARP cache.
 
 **_Q4. Manually delete the entry for the VM#2 machine in VM#1s ARP table (arp –d <ip>). Then, run tcpdump or wireshark on VM#2 to view the network traffic. Ping VM#2 again from VM#1. Report on the traffic that you see and use it to explain the way in which VM#1 obtains VM#2's MAC address._**
 
@@ -194,7 +194,7 @@ The target's ARP cache has been successfully poisoned:
 
 **_Q7: Suppose that as a network administrator you wanted to write a SCAPY script that would detect an ARP spoofing attack such as the one conducted by arp.py. Give a high-level description of how your SCAPY script would work._**
 
-I would look into work that has already been done in Bro scripting. [2]  I would look into current research into _active_ techniques to check each machine's ARP cache for suspicious gateways.  As far as using Scapy for this, I'd be happy to see how exactly this can be done!
+I would look into work that has already been done in Bro scripting or another comparable IDS. [2]  I would look into current research into _active_ techniques to check each machine's ARP cache for suspicious gateways.  As far as using Scapy for this, I'd be happy to see how exactly this can be done!
 
 
 
