@@ -122,7 +122,15 @@ I am getting an ARP request.  There is a name resolution problem.  Perhaps I nee
 ![Problem with Name Resolution](/images/Lab6-problem-name_resolution.png)
 
 To clear the target VM's arp cache we can run:
+
     ip -s -s neigh flush all
+
+The following header with explicit encoding was necessary:
+
+    #!/usr/bin/env python # coding: utf-8
+    
+
+
 
 
 
