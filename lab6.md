@@ -121,6 +121,8 @@ After changing the MAC on my attacker machine, it didn't immediately come up unt
 I am getting an ARP request.  There is a name resolution problem.  Perhaps I need a fourth VM that the target VM doesn't know about so that the attack machine can fulfill the request?
 ![Problem with Name Resolution](/images/Lab6-problem-name_resolution.png)
 
+To clear the target VM's arp cache we can run:
+    ip -s -s neigh flush all
 
 
 
