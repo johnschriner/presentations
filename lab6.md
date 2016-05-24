@@ -112,6 +112,18 @@ Look into using scapy's <code>arpcachepoison()</code>
 
 Edit: No success with arpcachepoison with either specifying MACs or IPs.
 
+Upon troubleshooting some errors in coding and other little things I realized that the biggest problem was that my two Ubuntu machines had the same MAC address--that will certainly confound the exercise.
+
+After changing the MAC on my attacker machine, it didn't immediately come up until I pulled it up with:
+    ifconfig -a
+    ifconfig eth3 up
+
+I am getting an ARP request.  There is a name resolution problem.  Perhaps I need a fourth VM that the target VM doesn't know about so that the attack machine can fulfill the request?
+![Problem with Name Resolution](/images/Lab6-problem-name_resolution.png)
+
+
+
+
 
 
 
