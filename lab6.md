@@ -194,3 +194,11 @@ The target's ARP cache has been successfully poisoned:
 
 **_Q7: Suppose that as a network administrator you wanted to write a SCAPY script that would detect an ARP spoofing attack such as the one conducted by arp.py. Give a high-level description of how your SCAPY script would work._**
 
+I would look into work that has already been done in Bro scripting. [2]  I would look into current research into _active_ techniques to check each machine's ARP cache for suspicious gateways.  As far as using Scapy for this, I'd be happy to see how exactly this can be done!
+
+
+
+
+
+[1]: http://rtoodtoo.net/fragmented-ip-packet-forwarding/
+[2]: https://github.com/maxfeldman14/brospects/blob/master/arpspoof.bro
