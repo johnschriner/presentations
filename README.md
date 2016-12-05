@@ -3,7 +3,7 @@
 This is a collection of presentations I've given on various topics
 
 Monitoring the Dark Web and Securing Onion Services
-goo.gl/ORT5m1 and http://prezi.com/krjp3ifqzdkh/
+https://goo.gl/ORT5m1 and http://prezi.com/krjp3ifqzdkh/
 
 University of Sharjah, UAE - Posited: Print Media Becomes Entirely Legacy
 https://goo.gl/N1dcNG and http://prezi.com/xuuo7zv6cigu/
