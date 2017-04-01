@@ -3,7 +3,7 @@
 This is a collection of presentations I've given on various topics
 
 Midterm Submittal - FCM 709 - John Jay
-goo.gl/jhstCs and https://prezi.com/17vjkx4nfibq/schriner-midterm-submittal/
+https://goo.gl/jhstCs and https://prezi.com/17vjkx4nfibq/schriner-midterm-submittal/
 
 Monitoring the Dark Web and Securing Onion Services
 https://goo.gl/ORT5m1 and http://prezi.com/krjp3ifqzdkh/
