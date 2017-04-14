@@ -1,6 +1,8 @@
-# presentations
+# presentations and published papers
 
-This is a collection of presentations I've given on various topics
+Radical Librarian-Technologists<br/>
+Schriner, John, "Radical Librarian-Technologists" (2015). CUNY Academic Works.<br/>
+http://academicworks.cuny.edu/le_pubs/105
 
 Midterm Submittal - FCM 709 - John Jay
 https://goo.gl/jhstCs and https://prezi.com/17vjkx4nfibq/schriner-midterm-submittal/
