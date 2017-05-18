@@ -4,8 +4,11 @@ Radical Librarian-Technologists<br/>
 Schriner, John, "Radical Librarian-Technologists" (2015). CUNY Academic Works.<br/>
 http://academicworks.cuny.edu/le_pubs/105
 
-Midterm Submittal - FCM 709 - John Jay
+Midterm Submittal - FCM 790 - John Jay
 https://goo.gl/jhstCs and https://prezi.com/17vjkx4nfibq/schriner-midterm-submittal/
+
+Final Presentation - NSWpy - FCM 790 - John Jay
+goo.gl/wzrxB8 and https://prezi.com/johv5wyfvl2x/john-schriner-fcm-790-final-presentation/
 
 Monitoring the Dark Web and Securing Onion Services
 https://goo.gl/ORT5m1 and http://prezi.com/krjp3ifqzdkh/
