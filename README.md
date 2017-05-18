@@ -8,7 +8,7 @@ Midterm Submittal - FCM 790 - John Jay<br />
 https://goo.gl/jhstCs and https://prezi.com/17vjkx4nfibq/schriner-midterm-submittal/
 
 Final Presentation - NSWpy - FCM 790 - John Jay<br />
-goo.gl/wzrxB8 and https://prezi.com/johv5wyfvl2x/john-schriner-fcm-790-final-presentation/
+https://goo.gl/wzrxB8 and https://prezi.com/johv5wyfvl2x/john-schriner-fcm-790-final-presentation/
 
 Monitoring the Dark Web and Securing Onion Services<br />
 https://goo.gl/ORT5m1 and http://prezi.com/krjp3ifqzdkh/<br />
