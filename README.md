@@ -9,7 +9,7 @@ Here is the accompanying paper: https://github.com/johnschriner/presentations/ra
 
 # Presentations:
 How can electronic resources management enhance discovery and use of collections at a research library:
-https://prezi.com/o0xqlxditlkm/how-can-electronic-resources-management-enhance-discovery-an/
+https://goo.gl/YrhV3s and https://prezi.com/o0xqlxditlkm/how-can-electronic-resources-management-enhance-discovery-an/
 
 Midterm Submittal - FCM 790 - John Jay<br />
 https://goo.gl/jhstCs and https://prezi.com/17vjkx4nfibq/schriner-midterm-submittal/
