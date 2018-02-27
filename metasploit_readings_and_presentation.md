@@ -24,14 +24,14 @@ Hackersploit's Metasploit For Beginners - #1 - The Basics - Modules, Exploits & 
   <p>
   commands:<br />
   
-  *search type:exploit platform:windows flash<br />
-  *help<br />
-  *use exploit/windows/browser/adobe_flash_avm2 (turns red if loaded)<br />
-  *show (gives lots of info)<br />
-  *show info (good place to start)<br />
-  *show options (customize the attack)<br />
-  *show payloads (shows all of the payloads available)<br />
-  *show targets<br />
+  * search type:exploit platform:windows flash
+  * help
+  * use exploit/windows/browser/adobe_flash_avm2 (turns red if loaded)
+  * show (gives lots of info)
+  * show info (good place to start)
+  * show options (customize the attack)
+  * show payloads (shows all of the payloads available)
+  * show targets
   
   
   
