@@ -16,3 +16,20 @@ Hak5's Metasploit Minute series<br />
 Hackersploit's Metasploit For Beginners - #1 - The Basics - Modules, Exploits & Payloads<br />
   
 [![thumbnail from the video](http://img.youtube.com/vi/8lR27r8Y_ik/0.jpg)](hhttps://www.youtube.com/watch?v=8lR27r8Y_ik "Metasploit For Beginners - #1 - The Basics - Modules, Exploits & Payloads")<p>
+<p>
+  ### Demonstration and Things to Remember<br />
+  <br />
+  searching: type and platform<br />
+  <p>
+  commands:<br />
+  *search type:exploit platform:windows flash<br />
+  *help<br />
+  *use exploit/windows/browser/adobe_flash_avm2 (turns red if loaded)<br />
+  *show (gives lots of info)<br />
+  *show info (good place to start)<br />
+  *show options (customize the attack)<br />
+  *show payloads (shows all of the payloads available)<br />
+  *show targets<br />
+  
+  
+  
