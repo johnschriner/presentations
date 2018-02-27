@@ -1,4 +1,4 @@
-### Metasploit Readings<p>
+### Metasploit Readings and Videos<p>
   
 [Metasploit for Beginners](https://www.concise-courses.com/security/metasploit-for-beginners/).<br />
 <p>
@@ -6,6 +6,7 @@ Youtube: Metasploit for Beginners<br />
   
 [![thumbnail from the video](http://img.youtube.com/vi/cnkLv_RE3EI/0.jpg)](https://www.youtube.com/watch?v=cnkLv_RE3EI "MetaSploit tutorial for beginners")<p>
 <p>
+  
 [Setting up a Metasploit postgresql database](https://www.offensive-security.com/metasploit-unleashed/using-databases/).<p>
 <p>
 Hak5's Metasploit Minute series<br />
