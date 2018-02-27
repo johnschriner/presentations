@@ -29,9 +29,18 @@ Hackersploit's Metasploit For Beginners - #1 - The Basics - Modules, Exploits & 
   * use exploit/windows/browser/adobe_flash_avm2 (turns red if loaded)
   * show (gives lots of info)
   * show info (good place to start)
-  * show options (customize the attack)
+  * show options (customize the attack) and set SRVPORT 80
   * show payloads (shows all of the payloads available)
   * show targets
+  * finish with 'exploit'
+  
+  Modules directory:  /usr/share/metasploit-framework
+  NOPS for buffer overflows
+  Encoding for sneaking through antivirus
+  post for further attacks are being pwned (keyloggers, VNC, etc.)
+  post/windows/gather <--btc-mining and other scripts
+    
+  
   
   
   
