@@ -20,6 +20,7 @@ Hackersploit's Metasploit For Beginners - #1 - The Basics - Modules, Exploits & 
   
   ### Demonstration and Things to Remember<br />
   <br />
+  start postgresql before msfconsole<br />
   searching: type and platform<br />
   <p>
   commands:<br />
