@@ -17,6 +17,7 @@ Hackersploit's Metasploit For Beginners - #1 - The Basics - Modules, Exploits & 
   
 [![thumbnail from the video](http://img.youtube.com/vi/8lR27r8Y_ik/0.jpg)](hhttps://www.youtube.com/watch?v=8lR27r8Y_ik "Metasploit For Beginners - #1 - The Basics - Modules, Exploits & Payloads")<p>
 <p>
+  
   ### Demonstration and Things to Remember<br />
   <br />
   searching: type and platform<br />
