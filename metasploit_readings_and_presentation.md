@@ -33,12 +33,12 @@ Hackersploit's Metasploit For Beginners - #1 - The Basics - Modules, Exploits & 
   * show payloads (shows all of the payloads available)
   * show targets
   * finish with 'exploit'
-  
-  Modules directory:  /usr/share/metasploit-framework
-  NOPS for buffer overflows
-  Encoding for sneaking through antivirus
-  post for further attacks are being pwned (keyloggers, VNC, etc.)
-  post/windows/gather <--btc-mining and other scripts
+  <p>
+  Modules directory:  /usr/share/metasploit-framework<br />
+  NOPS for buffer overflows<br />
+  Encoding for sneaking through antivirus<br />
+  post for further attacks are being pwned (keyloggers, VNC, etc.)<br />
+  post/windows/gather <--btc-mining and other scripts<br />
     
   
   
