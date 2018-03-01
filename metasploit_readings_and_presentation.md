@@ -48,6 +48,10 @@ Hackersploit's Metasploit For Beginners - #1 - The Basics - Modules, Exploits & 
   Encoding for sneaking through antivirus<br />
   post for further attacks are being pwned (keyloggers, VNC, etc.)<br />
   post/windows/gather <--btc-mining and other scripts<br />
+  
+  Armitage - GUI for MSF
+  
+  ezsploit automation
     
   
   
