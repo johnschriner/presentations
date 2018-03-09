@@ -2,6 +2,10 @@
   
 [Metasploit for Beginners](https://www.concise-courses.com/security/metasploit-for-beginners/).<br />
 [A Tour of the Metasploit Framework](http://www.ethicalhackx.com/metasploit-framework/).<br />
+[Hands on with Metasploit Express (ScienceDirect)](https://doi.org/10.1016/S1353-4858(10)70092-1).<br />
+[Instant Metasploit Starter (ProQuest ebook)](https://onesearch.cuny.edu/primo-explore/fulldisplay?docid=TN_ingram_myilibrary9781299802681&context=PC&vid=qb&search_scope=cunywide&tab=cuny_tab&lang=en_US).<br />
+[Mastering Metasploit (ProQuest ebook)](https://onesearch.cuny.edu/primo-explore/fulldisplay?docid=TN_ingram_myilibrary9781306823425&context=PC&vid=CUNY&search_scope=everything&tab=default_tab&lang=en_US).<br />
+
 
 <p>
 Youtube: Metasploit for Beginners<br />
