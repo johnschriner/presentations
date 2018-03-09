@@ -55,7 +55,6 @@ Hackersploit's Metasploit For Beginners - #1 - The Basics - Modules, Exploits & 
   
   ezsploit automation
   
-  Reconnaisance<br />
-  
- CTFR[![CTFR](https://a.pomf.cat/qqtejp.png)]
+Reconnaisance:<br />
+ CTFR![CTFR](https://a.pomf.cat/qqtejp.png)
   
