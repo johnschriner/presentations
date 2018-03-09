@@ -62,4 +62,10 @@ Hackersploit's Metasploit For Beginners - #1 - The Basics - Modules, Exploits & 
   
 Reconnaisance:<br />
  CTFR![CTFR](https://a.pomf.cat/qqtejp.png)
+ 
+ 
+ Shodan: FREE full membership with a .edu address: 
+ ![Shodan](https://a.pomf.cat/tbucxr.png)
+ 
+ Register here: https://account.shodan.io/register and email support@shodan.io from the .edu email.
   
