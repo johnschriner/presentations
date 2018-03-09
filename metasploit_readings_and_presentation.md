@@ -1,6 +1,8 @@
 ### Metasploit Readings and Videos<p>
   
 [Metasploit for Beginners](https://www.concise-courses.com/security/metasploit-for-beginners/).<br />
+[A Tour of the Metasploit Framework](http://www.ethicalhackx.com/metasploit-framework/).<br />
+
 <p>
 Youtube: Metasploit for Beginners<br />
   
@@ -15,7 +17,7 @@ Hak5's Metasploit Minute series<br />
 
 Hackersploit's Metasploit For Beginners - #1 - The Basics - Modules, Exploits & Payloads<br />
   
-[![thumbnail from the video](http://img.youtube.com/vi/8lR27r8Y_ik/0.jpg)](hhttps://www.youtube.com/watch?v=8lR27r8Y_ik "Metasploit For Beginners - #1 - The Basics - Modules, Exploits & Payloads")<p>
+[![thumbnail from the video](http://img.youtube.com/vi/8lR27r8Y_ik/0.jpg)](https://www.youtube.com/watch?v=8lR27r8Y_ik "Metasploit For Beginners - #1 - The Basics - Modules, Exploits & Payloads")<p>
 <p>
   
   ### Demonstration and Things to Remember<br />
@@ -52,8 +54,8 @@ Hackersploit's Metasploit For Beginners - #1 - The Basics - Modules, Exploits & 
   Armitage - GUI for MSF
   
   ezsploit automation
-    
   
+  Reconnaisance<br />
   
-  
+ CTFR[![CTFR](https://www.dropbox.com/s/fr57g4dzl5c91h0/Screenshot%202018-03-09%2008.55.59.png?dl=0)]
   
