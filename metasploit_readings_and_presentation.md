@@ -57,5 +57,5 @@ Hackersploit's Metasploit For Beginners - #1 - The Basics - Modules, Exploits & 
   
   Reconnaisance<br />
   
- CTFR[![CTFR](https://www.dropbox.com/s/fr57g4dzl5c91h0/Screenshot%202018-03-09%2008.55.59.png?dl=0)]
+ CTFR[![CTFR](https://www.dropbox.com/s/fr57g4dzl5c91h0/Screenshot%202018-03-09%2008.55.59.png)]
   
