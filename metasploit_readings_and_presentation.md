@@ -48,7 +48,7 @@ Hackersploit's Metasploit For Beginners - #1 - The Basics - Modules, Exploits & 
   * use exploit/unix/ftp/vsftpd_234_backdoor
   * info
   * set RHOST 10.______
-  * finish with 'exploit'
+  * finish with 'check' and 'exploit'
   <p>
   Modules directory:  /usr/share/metasploit-framework<br />
   NOPS for buffer overflows<br />
