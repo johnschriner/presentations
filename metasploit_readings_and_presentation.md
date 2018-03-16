@@ -1,17 +1,17 @@
 # Readings and Videos<p>
 
 ## Reaver<p>
-**Suggested brief reading:** [Offline Bruteforce Attack on Wifi Protected Setup](http://archive.hack.lu/2014/Hacklu2014_offline_bruteforce_attack_on_wps.pdf).<br />
+**Suggested brief reading:** [Offline Bruteforce Attack on Wifi Protected Setup](http://archive.hack.lu/2014/Hacklu2014_offline_bruteforce_attack_on_wps.pdf =250x).<br />
  
  ##### Pixie Dust attack
   
  ![The old way](https://www.hackingtutorials.org/wp-content/uploads/2015/06/Wordpress-screen-21-e1433583260536.jpg)
   <p>
     
- ![With the pixie dust option](https://comfy.moe/hhojvn.jpg)
+ ![With the pixie dust option](https://comfy.moe/hhojvn.jpg =250x)
   <p>
  
- ![With the pixie dust option - result](https://comfy.moe/tyhfos.jpg)
+ ![With the pixie dust option - result](https://comfy.moe/tyhfos.jpg =250x)
   
 <p>
   
@@ -82,7 +82,7 @@ Hackersploit's Metasploit For Beginners - #1 - The Basics - Modules, Exploits & 
   
 ### Reconnaisance:<br />
 [CTFR](https://github.com/UnaPibaGeek/ctfr)<p>
-![CTFR](https://a.pomf.cat/qqtejp.png)
+![CTFR](https://a.pomf.cat/qqtejp.png =250x)
  <p>
  
 ### Shodan: FREE full membership with a .edu address: 
