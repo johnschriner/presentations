@@ -1,4 +1,4 @@
-### Readings and Videos<p>
+# Readings and Videos<p>
 
 ## Reaver<p>
 **Suggested brief reading:** [Offline Bruteforce Attack on Wifi Protected Setup](http://archive.hack.lu/2014/Hacklu2014_offline_bruteforce_attack_on_wps.pdf).<br />
@@ -69,11 +69,11 @@ Hackersploit's Metasploit For Beginners - #1 - The Basics - Modules, Exploits & 
   
   ezsploit automation
   
-Reconnaisance:<br />
+### Reconnaisance:<br />
  CTFR![CTFR](https://a.pomf.cat/qqtejp.png)
+ <p>
  
- 
- Shodan: FREE full membership with a .edu address: 
+### Shodan: FREE full membership with a .edu address: 
  ![Shodan](https://a.pomf.cat/tbucxr.png)
  
  Register here: https://account.shodan.io/register and email support@shodan.io from the .edu email.
