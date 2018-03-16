@@ -4,6 +4,10 @@
 **Suggested brief reading:** [Offline Bruteforce Attack on Wifi Protected Setup](http://archive.hack.lu/2014/Hacklu2014_offline_bruteforce_attack_on_wps.pdf).<br />
  
  ##### Pixie Dust attack
+ 
+ ![Options](https://comfy.moe/xeuglf.png)
+  <p>
+
   
 ![The old way](https://www.hackingtutorials.org/wp-content/uploads/2015/06/Wordpress-screen-21-e1433583260536.jpg)
   <p>
