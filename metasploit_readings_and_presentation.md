@@ -5,6 +5,7 @@
 <details> 
   <summary>Some of the most useful tools in Kali Linux and what they do</summary>
 from: https://stackoverflow.com/questions/32814161/how-to-make-spoiler-text-in-github-wiki-pages
+ 
 1. Metasploit - Main part of Kali Linux, This tool is used to enumerate a network, attacking on the servers using appropriate exploits and Payloads. Along with this you can use it for post exploitation purposes
 
 2. THC Hydra - A online Password Cracker tool, which is used to Crack the password of a remote host / server
