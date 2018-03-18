@@ -18,8 +18,48 @@
 [Mastering the Nmap Scripting Engine (video from DefCon 18, 38mins, non-obligatory)](https://www.infoworld.com/article/3152617/security/nmap-security-scanner-gets-new-scripts-performance-boosts.html)<br />
 
 <details> 
-  <summary>Q1: What is the best Language in the World? </summary>
-   A1: JavaScript 
+  <summary>Some of the most useful tools in Kali Linux</summary>
+   Some of the most tools used in Kali Linux are described below
+
+1. Metasploit - Main part of Kali Linux, This tool is used to enumerate a network, attacking on the servers using appropriate exploits and Payloads. Along with this you can use it for post exploitation purposes
+
+2. THC Hydra - A online Password Cracker tool, which is used to Crack the password of a remote host / server
+
+3. Armitage - Graphical display of metasploit for attacking on a server
+
+4. WafW00f - The Firewall Detection tool
+
+5. Fierce - The Domain Information Digging tools used to enumerate the server users
+
+6. Hping3 - A tool used for Launching DoS (Denial of Service) or DDoS (Distributed Denial of Service) attacks
+
+7. Airmon - ng, Airbase - ng, Aircrack - ng - Used to monitor, Collect information about Wi - Fi SSID (Service Set Identifier) IP and MAC Addresses and Cracking Password of Wi - Fi
+
+8. OWASP ZAP - used as a web Crawler (Spidering)
+
+9. Burpsuite - Used as a penetration testing tool to introduce Local file or Remote File Inclusion
+
+10. Maltego - Used to collect information of remote hosts
+
+11. W3AF - Arconym for Web Application Attack and Audit Framework, used to find flaws in a website
+
+12. NMap and Netcat - Used to find open network ports
+
+13. Nikto Scanner - Used to find critical vulnerabilities in a website
+
+14. Wpscan - used to find flaws in a wordpress website
+
+15. Recon - ng - Used to reconnaissance of a profile through any sort of social media
+
+16. Magictree - Used to collect information by collecting inputs from a Penetration Tester
+
+17. Whois - Gives the entire information about website
+
+18. Nslookup & Dig - A part of reconnaissance tools gives the exact information of a web server
+
+19. Wireshark - A packet analyzer used to find the activity in a Transmission control protocol / Internet Protocol / IGRP / ICMP etc.
+
+20. Kismet - Wireless Intrusion detection System
 </details>
 
 
