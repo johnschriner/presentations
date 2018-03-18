@@ -12,7 +12,7 @@
 
 [Nmap scanner gets new scripts](https://www.infoworld.com/article/3152617/security/nmap-security-scanner-gets-new-scripts-performance-boosts.html)<br />
 
-[Mastering the Nmap Scripting Engine (video, 38mins, non-obligatory)](https://www.infoworld.com/article/3152617/security/nmap-security-scanner-gets-new-scripts-performance-boosts.html)<br />
+[Mastering the Nmap Scripting Engine (video from DefCon 18, 38mins, non-obligatory)](https://www.infoworld.com/article/3152617/security/nmap-security-scanner-gets-new-scripts-performance-boosts.html)<br />
 
 
   
