@@ -63,6 +63,8 @@ from: https://stackoverflow.com/questions/32814161/how-to-make-spoiler-text-in-g
 
 [Mastering the Nmap Scripting Engine (video from DefCon 18, 38mins, non-obligatory)](https://www.infoworld.com/article/3152617/security/nmap-security-scanner-gets-new-scripts-performance-boosts.html)<br />
 
+**Highly Suggested brief reading:** [Offline Bruteforce Attack on Wifi Protected Setup](http://archive.hack.lu/2014/Hacklu2014_offline_bruteforce_attack_on_wps.pdf)<br />
+
 
 
   
@@ -97,7 +99,7 @@ Hackersploit's Metasploit For Beginners - #1 - The Basics - Modules, Exploits & 
 <p>
  
 ## Reaver<p>
-**Suggested brief reading:** [Offline Bruteforce Attack on Wifi Protected Setup](http://archive.hack.lu/2014/Hacklu2014_offline_bruteforce_attack_on_wps.pdf)<br />
+
  
  ##### Pixie Dust attack
  
