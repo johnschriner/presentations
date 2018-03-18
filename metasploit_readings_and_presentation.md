@@ -2,21 +2,6 @@
  
 ## Kali introductory readings
 
-[Kali Linux Official Documentation](https://docs.kali.org/)<br />
-
-[Kali Linux Custom Images](https://www.offensive-security.com/kali-linux-vm-vmware-virtualbox-hyperv-image-download/)<br />
-
-[Kali Blog: Linux in the Windows App Store](https://www.kali.org/news/kali-linux-in-the-windows-app-store/)<br />
-
-[Kali Blog: Kali Drones, Portable CTF Builds, Raspberry Pi Craziness and More!](https://www.kali.org/news/kali-drones-portable-ctf-builds-raspberry-pi-craziness-and-more/)<br />
-
-
-[Configuring and Tuning OpenVAS in Kali Linux](https://www.kali.org/tutorials/configuring-and-tuning-openvas-in-kali-linux/)<br />
-
-[Nmap scanner gets new scripts](https://www.infoworld.com/article/3152617/security/nmap-security-scanner-gets-new-scripts-performance-boosts.html)<br />
-
-[Mastering the Nmap Scripting Engine (video from DefCon 18, 38mins, non-obligatory)](https://www.infoworld.com/article/3152617/security/nmap-security-scanner-gets-new-scripts-performance-boosts.html)<br />
-
 <details> 
   <summary>Some of the most useful tools in Kali Linux and what they do</summary>
 
@@ -60,6 +45,23 @@
 
 20. Kismet - Wireless Intrusion detection System
 </details>
+
+
+[Kali Linux Official Documentation](https://docs.kali.org/)<br />
+
+[Kali Linux Custom Images](https://www.offensive-security.com/kali-linux-vm-vmware-virtualbox-hyperv-image-download/)<br />
+
+[Kali Blog: Linux in the Windows App Store](https://www.kali.org/news/kali-linux-in-the-windows-app-store/)<br />
+
+[Kali Blog: Kali Drones, Portable CTF Builds, Raspberry Pi Craziness and More!](https://www.kali.org/news/kali-drones-portable-ctf-builds-raspberry-pi-craziness-and-more/)<br />
+
+
+[Configuring and Tuning OpenVAS in Kali Linux](https://www.kali.org/tutorials/configuring-and-tuning-openvas-in-kali-linux/)<br />
+
+[Nmap scanner gets new scripts](https://www.infoworld.com/article/3152617/security/nmap-security-scanner-gets-new-scripts-performance-boosts.html)<br />
+
+[Mastering the Nmap Scripting Engine (video from DefCon 18, 38mins, non-obligatory)](https://www.infoworld.com/article/3152617/security/nmap-security-scanner-gets-new-scripts-performance-boosts.html)<br />
+
 
 
   
