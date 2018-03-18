@@ -60,7 +60,8 @@ Hackersploit's Metasploit For Beginners - #1 - The Basics - Modules, Exploits & 
  ![With the pixie dust option - result](https://comfy.moe/tyhfos.jpg)
   
 <p>
-  ### Demonstration and Things to Remember<br />
+ 
+  ### Demonstration of using Metasploit<br />
   <br />
   start postgresql before msfconsole<br />
   searching: type and platform<br />
