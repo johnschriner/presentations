@@ -17,6 +17,11 @@
 
 [Mastering the Nmap Scripting Engine (video from DefCon 18, 38mins, non-obligatory)](https://www.infoworld.com/article/3152617/security/nmap-security-scanner-gets-new-scripts-performance-boosts.html)<br />
 
+<details> 
+  <summary>Q1: What is the best Language in the World? </summary>
+   A1: JavaScript 
+</details>
+
 
   
 ## Metasploit<p>
