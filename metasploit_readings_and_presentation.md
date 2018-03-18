@@ -18,8 +18,7 @@
 [Mastering the Nmap Scripting Engine (video from DefCon 18, 38mins, non-obligatory)](https://www.infoworld.com/article/3152617/security/nmap-security-scanner-gets-new-scripts-performance-boosts.html)<br />
 
 <details> 
-  <summary>Some of the most useful tools in Kali Linux</summary>
-   Some of the most tools used in Kali Linux are described below
+  <summary>Some of the most useful tools in Kali Linux and what they do</summary>
 
 1. Metasploit - Main part of Kali Linux, This tool is used to enumerate a network, attacking on the servers using appropriate exploits and Payloads. Along with this you can use it for post exploitation purposes
 
