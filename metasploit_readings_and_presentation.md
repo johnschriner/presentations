@@ -6,7 +6,10 @@
 
 [Kali Linux Custom Images](https://www.offensive-security.com/kali-linux-vm-vmware-virtualbox-hyperv-image-download/)<br />
 
-[Kali Linux in the Windows App Store](https://www.kali.org/news/kali-linux-in-the-windows-app-store/)<br />
+[Kali Blog: Linux in the Windows App Store](https://www.kali.org/news/kali-linux-in-the-windows-app-store/)<br />
+
+[Kali Drones, Portable CTF Builds, Raspberry Pi Craziness and More!](https://www.kali.org/news/kali-drones-portable-ctf-builds-raspberry-pi-craziness-and-more/)<br />
+
 
 [Configuring and Tuning OpenVAS in Kali Linux](https://www.kali.org/tutorials/configuring-and-tuning-openvas-in-kali-linux/)<br />
 
