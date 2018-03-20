@@ -162,16 +162,17 @@ Hackersploit's Metasploit For Beginners - #1 - The Basics - Modules, Exploits & 
   Modules directory:  /usr/share/metasploit-framework<br />
   NOPS for buffer overflows<br />
   Encoding for sneaking through antivirus<br />
-  post for further attacks are being pwned (keyloggers, VNC, etc.)<br />
-  post/windows/gather <--btc-mining and other scripts<br />
   
   Armitage - GUI for MSF
   
   ezsploit automation
   
 ### Reconnaisance:<br />
+post for further attacks are being pwned (keyloggers, VNC, etc.)<br />
+post/windows/gather <--btc-mining, keyloggers, and other scripts<br />
 Once you have a meterpreter shell: post/windows/ .... for information gathering<br />
 Pivoting to other machines<br />
+<p>
 [CTFR](https://github.com/UnaPibaGeek/ctfr)<p>
 ![CTFR](https://a.pomf.cat/qqtejp.png)
  <p>
