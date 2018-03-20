@@ -122,7 +122,10 @@ Hackersploit's Metasploit For Beginners - #1 - The Basics - Modules, Exploits & 
   ### Demonstration of using Metasploit<br />
   <br />
   start postgresql before msfconsole<br />
-  searching: type and platform<br />
+  db_status<br />
+  show -h<br />
+  show exploits <br />
+  searching by type and platform<br />
   <p>
   commands:<br />
   
