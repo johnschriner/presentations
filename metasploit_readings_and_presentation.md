@@ -136,6 +136,8 @@ Hackersploit's Metasploit For Beginners - #1 - The Basics - Modules, Exploits & 
   
   start postgresql before msfconsole<br />
   db_status<br />
+  search platform:apple_ios or search platform:android<br />
+  
   show -h<br />
   show exploits <br />
   searching by type and platform<br />
