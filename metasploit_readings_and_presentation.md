@@ -170,6 +170,8 @@ Hackersploit's Metasploit For Beginners - #1 - The Basics - Modules, Exploits & 
   ezsploit automation
   
 ### Reconnaisance:<br />
+Once you have a meterpreter shell: post/windows/ .... for information gathering<br />
+Pivoting to other machines<br />
 [CTFR](https://github.com/UnaPibaGeek/ctfr)<p>
 ![CTFR](https://a.pomf.cat/qqtejp.png)
  <p>
