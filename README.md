@@ -2,10 +2,10 @@
 Schriner, John, "The Legacy of Multics and Secure Operating Systems Today" (2018). CUNY Academic Works.<br/>
 https://academicworks.cuny.edu/qb_pubs/44<br/>
 
-
 Monitoring the Dark Web and Securing Onion Services<br />
-https://goo.gl/ORT5m1 and http://prezi.com/krjp3ifqzdkh/<br />
-Here is the accompanying paper: https://github.com/johnschriner/presentations/raw/master/Schriner-Monitoring_the_Dark_Web(2017).pdf
+Schriner, John, "Monitoring the Dark Web and Securing Onion Services" (2017). CUNY Academic Works.<br />
+https://academicworks.cuny.edu/qb_pubs/41<br />
+The presentation: https://goo.gl/ORT5m1 and http://prezi.com/krjp3ifqzdkh/<br />
 
 Radical Librarian-Technologists<br/>
 Schriner, John, "Radical Librarian-Technologists" (2015). CUNY Academic Works.<br/>
