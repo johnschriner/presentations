@@ -8,6 +8,9 @@ https://goo.gl/ORT5m1 and http://prezi.com/krjp3ifqzdkh/<br />
 Here is the accompanying paper: https://github.com/johnschriner/presentations/raw/master/Schriner-Monitoring_the_Dark_Web(2017).pdf
 
 # Presentations:
+NYC Mesh:
+goo.gl/sUsZ8k and https://prezi.com/c7q0gpoyp7lu/nyc-mesh/
+
 How can electronic resources management enhance discovery and use of collections at a research library:
 https://goo.gl/YrhV3s and https://prezi.com/o0xqlxditlkm/how-can-electronic-resources-management-enhance-discovery-an/
 
