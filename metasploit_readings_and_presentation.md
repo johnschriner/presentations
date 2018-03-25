@@ -108,16 +108,7 @@ Hackersploit's Metasploit For Beginners - #1 - The Basics - Modules, Exploits & 
 
   
 ![The old way](https://www.hackingtutorials.org/wp-content/uploads/2015/06/Wordpress-screen-21-e1433583260536.jpg)
-  <p>
-
-`reaver -i wlan0mon -b AA:BB:CC:DD:EE:FF -K`    
-![With the pixie dust option](https://comfy.moe/hhojvn.jpg)
-  <p>
- 
- `reaver -i wlan0mon -b AA:BB:CC:DD:EE:FF -p 39627124`
- ![With the pixie dust option - result](https://comfy.moe/tyhfos.jpg)
-  
-<p>
+ <p>
  
   ### Demonstration of using Metasploit<br />
   <br />
