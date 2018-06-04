@@ -16,12 +16,6 @@ http://academicworks.cuny.edu/le_pubs/105
 NYC Mesh:
 https://goo.gl/sUsZ8k and https://prezi.com/c7q0gpoyp7lu/nyc-mesh/
 
-Nice Corporation Breach and Attribution:
-https://goo.gl/MMV4En and https://prezi.com/7m4kd8excn2w/nice-corporation-breach-and-attribution/
-
-[first-draft] Nice Corporation:
-https://goo.gl/KWqN1C and https://prezi.com/msxzffsui2b4/nice-corporation-gets-pwned/
-
 How can electronic resources management enhance discovery and use of collections at a research library:
 https://goo.gl/YrhV3s and https://prezi.com/o0xqlxditlkm/how-can-electronic-resources-management-enhance-discovery-an/
 
