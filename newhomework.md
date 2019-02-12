@@ -1,4 +1,4 @@
-<strong>1. Compute the maximum likelihood probability of the phrase du hast mich gefragt‘you asked me’according to a second-order Markov model.</strong>
+<strong>1. Compute the maximum likelihood probability of the phrase du hast mich gefragt 'you asked me’ according to a second-order Markov model.</strong>
 
 P(du) = 19/64
 P(hast) = 14/64
