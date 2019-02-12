@@ -13,8 +13,11 @@ Adding their logs and then exponentiating:
 From the example:
 
 ``In [43]: math.log(.5) + math.log(.01)<p>
+
 Out[43]: -5.298317366548036<p>
+
 In [44]: math.exp(-5.298317366548036)<p>
+
 Out[44]: 0.005000000000000002``<p>
 
 and then with 1/256 * 1/8181:
