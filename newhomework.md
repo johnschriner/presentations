@@ -7,7 +7,7 @@ P(gefragt) = 3/64
 
 P(du hast mich gefragt) = 0.296875 * 0.21875 * 0.140625 * 0.046875 = 0.00042808055
 
-<strong>2. Use negative logarithms to compute 1/2561/8181, showing your work.</strong>
+<strong>2. Use negative logarithms to compute 1/256*1/8181, showing your work.</strong>
 
 Adding their logs and then exponentiating:
 From the example:
