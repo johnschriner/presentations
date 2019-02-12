@@ -19,9 +19,14 @@ From the example:
 
 and then with 1/256 * 1/8181:
 
-
 >In [45]: math.log(0.00390625) + math.log(0.00012223444)<p>
 >Out[45]: -14.554747162353262<p>
 >In [46]: math.exp(-14.554747162353262)<p>
->Out[46]: 4.774782812499997e-07``
+>Out[46]: 4.774782812499997e-07
+  
+<strong>3. UseBayes’ rule to rewrite the equation for ^T in terms of P(W | T)instead, and provide a prose explanation of each of the terms in the new equation.</strong>
+
+
+
+  
 
