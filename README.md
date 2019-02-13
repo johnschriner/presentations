@@ -1,4 +1,7 @@
 # Published papers:
+Schriner, John, "Building Test Anonymity Networks in a Cybersecurity Lab Environment" (2018). CUNY Academic Works.<br/>
+https://academicworks.cuny.edu/jj_etds/80<br/>
+
 Schriner, John, "The Legacy of Multics and Secure Operating Systems Today" (2018). CUNY Academic Works.<br/>
 https://academicworks.cuny.edu/qb_pubs/44<br/>
 
