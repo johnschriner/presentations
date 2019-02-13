@@ -6,7 +6,7 @@ P(mich) = 9/64<p>
 P(gefragt) = 3/64<p>
 
 P(du hast mich gefragt) = 0.296875 * 0.21875 * 0.140625 * 0.046875 = 0.00042808055<p>
-
+<p>
 <strong>2. Use negative logarithms to compute 1/256*1/8181, showing your work.</strong>
 
 Adding their logs and then exponentiating:
@@ -23,7 +23,7 @@ and then with 1/256 * 1/8181:
 >Out[45]: -14.554747162353262<p>
 >In [46]: math.exp(-14.554747162353262)<p>
 >Out[46]: 4.774782812499997e-07
-  
+<p>
 <strong>3. Use Bayes’ rule to rewrite the equation for ^T in terms of P(W | T) instead, and provide a prose explanation of each of the terms in the new equation.</strong><p>
   
 Ŵ = argmaxP(W) * P(T | W)<p>
