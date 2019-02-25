@@ -1,11 +1,15 @@
 <strong>1. Compute the maximum likelihood probability of the phrase du hast mich gefragt 'you asked me’ according to a second-order Markov model.</strong>
 
-P(du) = 19/64<p>
-P(hast) = 14/64<p>
-P(mich) = 9/64<p>
-P(gefragt) = 3/64<p>
-
-P(du hast mich gefragt) = 0.296875 * 0.21875 * 0.140625 * 0.046875 = 0.00042808055<p>
+P(du) * P(hast | du)* P(mich |du hast) * P(gefragt | hast mich)<p>
+P(du) = 20/64<p>
+P(hast) = 14/20<p>
+P(mich) = 9/14<p>
+P(gefragt) = 3/9<p>
+20/64 * 14/20 * 9/14 * 3/9<p>
+<p>
+P(du hast mich gefragt) = 0.046875<p>
+My mistake was that I was using 64 as a denominator (all of the words) instead of simply counting the second word (i.e. mich given du hast is now 9/14)<p>
+  Thanks for the clarification.<p>
 <p>
 <strong>2. Use negative logarithms to compute 1/256*1/8181, showing your work.</strong>
 
