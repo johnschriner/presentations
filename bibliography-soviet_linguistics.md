@@ -3,7 +3,7 @@ ___
 _When the Bolsheviks came to power in 1917, they began to make language policy for the hundreds of official and minority languages across the country.  This brief and non-exhaustive bibliography will look at particular language policy, how linguistics and academics changed, and the quest for a "Soviet linguistics."_
 These are all accessible texts and all are English-language.  
 
-_This area is interesting for the following reasons:  it was a giant landmass that the Bolshevik's inherited; the Bolsheviks had to fight a civil war on top of ending their part in WWII (after sending over 11 million Russians to their graves); the Muslim Turkic-world comprised much of central Asia with its own cultures; the vast majority of languages had no standard written form._
+_This area is interesting for the following reasons:  it was a giant landmass that the Bolshevik's inherited; the Bolsheviks had to fight a civil war on top of ending their part in WWI; the Muslim Turkic-world comprised much of central Asia with its own cultures; the vast majority of languages had no standard written form._
 
 ###General Introduction and Surveys of Languages
 -
@@ -18,7 +18,7 @@ Brandist, C., & Chown, K. (2010). Politics and the theory of language in the USS
 
 _This is a chronological set of essays that range from topics like pre-revolution linguistics to the bitter reaction to "bourgeois linguistics" in the early years of the revolution up to the 1930's.  One essay focuses on the academics of Stalin and nation-building.  Surprisingly little is mentioned of Marr and Japhetism except for an occasional awareness of official dogma._
 
-[Here](https://dl.dropboxusercontent.com/u/2203034/notes.-.Politics.and.the.Theory.of.Language.in.the.USSR.1917-1938._.The.Birth.of.Sociological.Linguistics.pdf) are my notes and hightlights from the text.
+[Here](https://mega.nz/#!QbYDmaTL!7oflptQNfC9tWyYWFHJbKfEuLjALvsGQjKcMRD4UQIg) are my notes and hightlights from the text.
 
 ###Philosophy of Language, Nicholas Yakovlevich Marr, and Marxism
 -
