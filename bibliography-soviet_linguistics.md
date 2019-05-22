@@ -2,9 +2,10 @@
 Most papers may be found [here](https://github.com/johnschriner/presentations/tree/master/soviet_linguistics_-_papers).
 ___
 _When the Bolsheviks came to power in 1917, they began to make language policy for the hundreds of official and minority languages across the country.  This brief and non-exhaustive bibliography will look at particular language policy, how linguistics and academics changed, and the quest for a "Soviet linguistics."_
+
 These are all accessible texts and all are English-language.  
 
-_This area is interesting for the following reasons:  it was a giant landmass that the Bolshevik's inherited; the Bolsheviks had to fight a civil war on top of ending their part in WWI; the Muslim Turkic-world comprised much of central Asia with its own cultures; the vast majority of languages had no standard written form._
+_This area is interesting for the following reasons:  it was a giant landmass that the Bolshevik's inherited; it's the birth of sociolinguistics in the Soviet Union; the Bolsheviks had to fight a civil war on top of ending their part in WWI; the Muslim Turkic-world comprised much of central Asia with its own cultures; the vast majority of languages had no standard written form._
 
 ### General Introduction and Surveys of Languages
 
