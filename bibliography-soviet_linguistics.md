@@ -8,8 +8,8 @@ _This area is interesting for the following reasons:  it was a giant landmass th
 
 ### General Introduction and Surveys of Languages
 
-`Comrie, B. (1981). The languages of the Soviet Union. Cambridge England: Cambridge University Press. <br />
-Paper [here](https://mega.nz/#!RHwAXSaQ!MQCWYrh_zbXvsME5psGT699HosmfnrLfw3ax1gB-i2o)` 
+`Comrie, B. (1981). The languages of the Soviet Union. Cambridge England: Cambridge University Press.`
+Paper [here](https://mega.nz/#!RHwAXSaQ!MQCWYrh_zbXvsME5psGT699HosmfnrLfw3ax1gB-i2o) 
 
 ### Language Policy
 
