@@ -14,7 +14,7 @@ Paper [here](https://mega.nz/#!RHwAXSaQ!MQCWYrh_zbXvsME5psGT699HosmfnrLfw3ax1gB-
 ### Language Policy
 
 
-### How Academia Changed After 1917
+### Academia
 
 `Brandist, C., & Chown, K. (2010). Politics and the theory of language in the USSR, 1917-1938: The birth of sociological linguistics. London: Anthem Press.`
 
@@ -23,6 +23,11 @@ _This is a chronological set of essays that range from topics like pre-revolutio
 [Here](https://mega.nz/#!QbYDmaTL!7oflptQNfC9tWyYWFHJbKfEuLjALvsGQjKcMRD4UQIg) are my notes and hightlights from the text.
 
 Paper [here](https://github.com/johnschriner/presentations/blob/master/soviet_linguistics_-_papers/Politics%20and%20the%20Theory%20of%20Language%20in%20the%20Soviet%20Union%20-%20Brandist%20and%20Chown%20(2010).pdf)
+
+`Reznik, V. (2007). Succession or subversion: professional strategies of soviet cultural revolution. The case of nikolai marr. Slavonica, 13(2), 150–167. https://doi.org/10.1179/174581407X228957`
+Paper [here](https://github.com/johnschriner/presentations/blob/master/soviet_linguistics_-_papers/Reznik%20(2007)%20Succession%20or%20Subversion-%20Professional%20Strategies%20of%20Soviet%20Cultural%20Revolution.pdf)
+
+As a framework, Reznik uses Bourdieu's [theory of the scientific field and professional strategies](https://github.com/johnschriner/presentations/blob/master/soviet_linguistics_-_papers/Bourdieu%20(1975)%20The%20Specificity%20of%20the%20Scientific%20Field.pdf) to describe the academic environment before and after 1917.  Reznik traces Marr's ascent through the academy, to his professional societies, to his building of an institutional framework.  The paper explains Japhetic Theory but doesn't get bogged down.  It's the first article I've seen that provides an academic biography, his published findings in _Theses and Investigations in Armenian-Georgian Philology_, and his part in the Cultural Revolution.
 
 ### Philosophy of Language, Nicholas Yakovlevich Marr, and Marxism
 
