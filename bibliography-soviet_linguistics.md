@@ -39,4 +39,5 @@ As a framework, Reznik uses Bourdieu's [theory of the scientific field and profe
 
 > Murra, J. V. (1951). The Soviet linguistic controversy. New York: King's Crown.` 
 
+Paper [here](https://mega.nz/#!5XgmVAiJ!ATUhq1kgbYFMt8r4gREZa2Sg2ceGhJ7y88Uc4j5I9xM)
 
