@@ -8,15 +8,15 @@ _This area is interesting for the following reasons:  it was a giant landmass th
 
 ### General Introduction and Surveys of Languages
 
-Comrie, B. (1981). The languages of the Soviet Union. Cambridge England: Cambridge University Press. <br />
-Paper [here](https://mega.nz/#!RHwAXSaQ!MQCWYrh_zbXvsME5psGT699HosmfnrLfw3ax1gB-i2o) 
+`Comrie, B. (1981). The languages of the Soviet Union. Cambridge England: Cambridge University Press. <br />
+Paper [here](https://mega.nz/#!RHwAXSaQ!MQCWYrh_zbXvsME5psGT699HosmfnrLfw3ax1gB-i2o)` 
 
 ### Language Policy
 
 
 ### How Academia Changed After 1917
 
-Brandist, C., & Chown, K. (2010). Politics and the theory of language in the USSR, 1917-1938: The birth of sociological linguistics. London: Anthem Press.
+`Brandist, C., & Chown, K. (2010). Politics and the theory of language in the USSR, 1917-1938: The birth of sociological linguistics. London: Anthem Press.`
 
 _This is a chronological set of essays that range from topics like pre-revolution linguistics to the bitter reaction to "bourgeois linguistics" in the early years of the revolution up to the 1930's.  One essay focuses on the academics of Stalin and nation-building.  Surprisingly little is mentioned of Marr and Japhetism except for an occasional awareness of official dogma._
 
@@ -26,6 +26,6 @@ Paper [here](https://github.com/johnschriner/presentations/blob/master/soviet_li
 
 ### Philosophy of Language, Nicholas Yakovlevich Marr, and Marxism
 
-Murra, J. V. (1951). The Soviet linguistic controversy. New York: King's Crown. 
+`Murra, J. V. (1951). The Soviet linguistic controversy. New York: King's Crown.` 
 
 
