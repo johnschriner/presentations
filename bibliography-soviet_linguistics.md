@@ -10,11 +10,13 @@ _This area is interesting for the following reasons:  it was a giant landmass th
 ### General Introduction and Surveys of Languages
 
 > Comrie, B. (1981). The languages of the Soviet Union. Cambridge England: Cambridge University Press.
+
 Paper [here](https://mega.nz/#!RHwAXSaQ!MQCWYrh_zbXvsME5psGT699HosmfnrLfw3ax1gB-i2o) 
 
 ### Language Policy
 
 > Ornstein, J. (1959). Soviet Language Policy: Theory and Practice. The Slavic and East European Journal, 3(1), 1-24.
+
 Paper [here](https://mega.nz/#!BTwAyCgA!hMDCkcaQlnft12ZKtm-66mFyrGkT3A-fNlfAIdxv1EA)
 
 ### Academia
