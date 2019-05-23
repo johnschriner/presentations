@@ -13,6 +13,10 @@ _This area is interesting for the following reasons:  it was a giant landmass th
 
 Paper [here](https://mega.nz/#!RHwAXSaQ!MQCWYrh_zbXvsME5psGT699HosmfnrLfw3ax1gB-i2o) 
 
+> Krysin, L. (1977). Social Linguistics in the Ussr. Language in Society, 6(2), 229-246. doi:10.1017/S0047404500007284
+
+Paper [here](https://mega.nz/#!dXAXHCSB!KcJl_e31QTnr2jSG2ZchkH61fqugneXXlB9fU0La0xU)
+
 ### Language Policy
 
 > Law firm “Crisis Management Group,” & Sergey A., P. (2018). Nationalities policy of the first year of the soviet regime. Journal of Siberian Federal University. Humanities & Social Sciences, 11(5), 795–813. https://doi.org/10.17516/1997-1370-0271
