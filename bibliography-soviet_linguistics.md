@@ -15,6 +15,11 @@ Paper [here](https://mega.nz/#!RHwAXSaQ!MQCWYrh_zbXvsME5psGT699HosmfnrLfw3ax1gB-
 
 ### Language Policy
 
+> Law firm “Crisis Management Group,” & Sergey A., P. (2018). Nationalities policy of the first year of the soviet regime. Journal of Siberian Federal University. Humanities & Social Sciences, 11(5), 795–813. https://doi.org/10.17516/1997-1370-0271
+
+Paper [here] (https://mega.nz/#!oKYnRCba!Rv1ul6dcH7g_ff2Y-bsdosBrvZQBJtu0yhh9DXQshHU)
+
+
 > Ornstein, J. (1959). Soviet Language Policy: Theory and Practice. The Slavic and East European Journal, 3(1), 1-24.
 
 Paper [here](https://mega.nz/#!BTwAyCgA!hMDCkcaQlnft12ZKtm-66mFyrGkT3A-fNlfAIdxv1EA)
