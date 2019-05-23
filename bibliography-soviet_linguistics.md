@@ -30,7 +30,7 @@ Paper [here](https://mega.nz/#!BTwAyCgA!hMDCkcaQlnft12ZKtm-66mFyrGkT3A-fNlfAIdxv
 
 _This is a chronological set of essays that range from topics like pre-revolution linguistics to the bitter reaction to "bourgeois linguistics" in the early years of the revolution up to the 1930's.  One essay focuses on the academics of Stalin and nation-building.  Surprisingly little is mentioned of Marr and Japhetism except for an occasional awareness of official dogma._
 
-[Here](https://mega.nz/#!QbYDmaTL!7oflptQNfC9tWyYWFHJbKfEuLjALvsGQjKcMRD4UQIg) are my notes and hightlights from the text.
+[Here](https://mega.nz/#!QbYDmaTL!7oflptQNfC9tWyYWFHJbKfEuLjALvsGQjKcMRD4UQIg) are my notes and highlights from the text.
 
 Paper [here](https://github.com/johnschriner/presentations/blob/master/soviet_linguistics_-_papers/Politics%20and%20the%20Theory%20of%20Language%20in%20the%20Soviet%20Union%20-%20Brandist%20and%20Chown%20(2010).pdf)
 
