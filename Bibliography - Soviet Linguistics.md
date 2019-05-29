@@ -5,7 +5,7 @@ _When the Bolsheviks came to power in 1917, they began to make language policy f
 
 These are all accessible texts and all are English-language.  
 
-_This area is interesting for the following reasons:  it was a giant landmass that the Bolshevik's inherited; it's the birth of sociolinguistics in the Soviet Union; the Bolsheviks had to fight a civil war on top of ending their part in WWI; the Muslim Turkic-world comprised much of central Asia with its own cultures; ~130 different languages, many with no standard written form._
+_This area is interesting for the following reasons:  it was a giant landmass that the Bolshevik's inherited; it's the birth of sociolinguistics in the Soviet Union; the Bolsheviks had to fight a civil war on top of ending their part in WWI with the Brest-Litovsk Treaty; the Muslim Turkic-world comprised much of central Asia with its own cultures; ~130 different languages, many with no standard written form._
 
 ### General Introduction and Surveys of Languages
 
