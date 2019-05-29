@@ -42,7 +42,9 @@ Paper [here](https://github.com/johnschriner/presentations/blob/master/soviet_li
 
 Paper [here](https://github.com/johnschriner/presentations/blob/master/soviet_linguistics_-_papers/Reznik%20(2007)%20Succession%20or%20Subversion-%20Professional%20Strategies%20of%20Soviet%20Cultural%20Revolution.pdf)
 
-As a framework, Reznik uses Bourdieu's [theory of the scientific field and professional strategies](https://github.com/johnschriner/presentations/blob/master/soviet_linguistics_-_papers/Bourdieu%20(1975)%20The%20Specificity%20of%20the%20Scientific%20Field.pdf) to describe the academic environment before and after 1917.  Reznik traces Marr's ascent through the academy, to his professional societies, to his building of an institutional framework.  The paper explains Japhetic Theory but doesn't get bogged down.  It's the first article I've seen that provides an academic biography, his published findings in _Theses and Investigations in Armenian-Georgian Philology_, and his part in the Cultural Revolution.
+As a framework, Reznik uses Bourdieu's [theory of the scientific field and professional strategies](https://github.com/johnschriner/presentations/blob/master/soviet_linguistics_-_papers/Bourdieu%20(1975)%20The%20Specificity%20of%20the%20Scientific%20Field.pdf) to describe the academic environment before and after 1917.  Reznik traces Marr's ascent through the academy, to his professional societies, to his building of an institutional framework.  The paper explains Japhetic Theory but doesn't get bogged down.  It's the first article I've seen that provides an academic biography, his published findings in _Theses and Investigations in Armenian-Georgian Philology_, and his part in the Cultural Revolution.<br />
+"For all his anti-bourgeois fervour Marr was, in fact, a respectable St. Petersburg professor, an intellectual, who sought to advance high culture and support it with an institutional framework."
+
 
 ### Philosophy of Language, Nicholas Yakovlevich Marr, and Marxism
 
