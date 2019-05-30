@@ -36,3 +36,6 @@ https://goo.gl/DVF5va and https://prezi.com/7dzgshfy3f_x/
 
 MSU - Institutional Repositories: Benefits to Faculty and the Institution<br />
 https://goo.gl/sdlBdd and https://prezi.com/icsm-5mc0yoh
+
+# Work in Progress:
+
