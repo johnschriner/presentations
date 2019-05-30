@@ -38,4 +38,5 @@ MSU - Institutional Repositories: Benefits to Faculty and the Institution<br />
 https://goo.gl/sdlBdd and https://prezi.com/icsm-5mc0yoh
 
 # Work in Progress:
+[https://github.com/johnschriner/presentations/blob/master/Bibliography%20-%20Soviet%20Linguistics.md](An annotated bibliography in Early Soviet Linguistics)
 
