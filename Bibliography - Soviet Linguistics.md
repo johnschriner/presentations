@@ -55,3 +55,7 @@ Naturally, this paper will lead to more readings on Polivanov and other Marxist 
 
 Paper [here](https://mega.nz/#!5XgmVAiJ!ATUhq1kgbYFMt8r4gREZa2Sg2ceGhJ7y88Uc4j5I9xM)
 
+> Shlapentokh, D. (2011). The fate of nikolai marr’s linguistic theories: the case of linguistics in the political context. Journal of Eurasian Studies, 2(1), 60–73. https://doi.org/10.1016/j.euras.2010.10.003
+
+Paper [here](https://github.com/johnschriner/presentations/blob/master/soviet_linguistics_-_papers/Shlaptentokh%20(2010)%20The%20Fate%20of%20Nikolai%20Marr's%20Linguistic%20Theories.pdf)
+
