@@ -50,6 +50,9 @@ Naturally, this paper will lead to more readings on Polivanov and other Marxist 
 
 
 ### Philosophy of Language, Nicholas Yakovlevich Marr, and Marxism
+> Soviet Orientalism and Subaltern Linguistics:: The Rise and Fall of Marr’s Japhetic Theory. (2014). In The Making of the Humanities, vol. III: The Making of the Modern Humanities (p. 97). Amsterdam: Amsterdam University Press. 
+
+Paper [here](https://github.com/johnschriner/presentations/blob/master/soviet_linguistics_-_papers/Leezenberg%20(2014)%20Soviet%20Orientalism%20and%20Subaltern%20Linguistics.pdf)
 
 > Murra, J. V. (1951). The Soviet linguistic controversy. New York: King's Crown. 
 
