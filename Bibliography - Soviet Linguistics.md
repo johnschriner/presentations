@@ -7,6 +7,7 @@ These are all accessible texts and all are English-language.
 
 _This area is interesting for the following reasons:  it was a giant landmass that the Bolshevik's inherited; it's the birth of sociolinguistics in the Soviet Union; the Bolsheviks had to fight a civil war on top of ending their part in WWI with the Brest-Litovsk Treaty; the Muslim Turkic-world comprised much of central Asia with its own cultures; ~130 different languages, many with no standard written form._
 
+___
 ### General Introduction and Surveys of Languages
 
 > Comrie, B. (1981). The languages of the Soviet Union. Cambridge England: Cambridge University Press.
@@ -17,6 +18,7 @@ Paper [here](https://mega.nz/#!RHwAXSaQ!MQCWYrh_zbXvsME5psGT699HosmfnrLfw3ax1gB-
 
 Paper [here](https://mega.nz/#!dXAXHCSB!KcJl_e31QTnr2jSG2ZchkH61fqugneXXlB9fU0La0xU)
 
+___
 ### Language Policy
 
 > Law firm “Crisis Management Group,” & Sergey A., P. (2018). Nationalities policy of the first year of the soviet regime. Journal of Siberian Federal University. Humanities & Social Sciences, 11(5), 795–813. https://doi.org/10.17516/1997-1370-0271
@@ -28,6 +30,7 @@ Paper [here](https://mega.nz/#!oKYnRCba!Rv1ul6dcH7g_ff2Y-bsdosBrvZQBJtu0yhh9DXQs
 
 Paper [here](https://mega.nz/#!BTwAyCgA!hMDCkcaQlnft12ZKtm-66mFyrGkT3A-fNlfAIdxv1EA)
 
+___
 ### Academia
 
 > Brandist, C., & Chown, K. (2010). Politics and the theory of language in the USSR, 1917-1938: The birth of sociological linguistics. London: Anthem Press.
@@ -48,7 +51,7 @@ Marr "rejected Indo-European linguistics for its obsession with European languag
 Reznik sets up the article as a decision by opponents for intellectual dominance: either succession--the less risky strategy of embracing the Marxist New Teaching on Language and ousting the older scholars who weren't ideologically trained--or subversion, an all-in strategy employed by Polivanov, a committed Marxist who rejected the New Teaching and had his own Marxist linguistics alternative to Marrism.  This alternative took a jab at Marr's general assumptions and instead offered a Marxist linguistics that would "rely on factual information" and would outline a method that developed "socio-group (class) dialectology and to study the evolution of language in its interconnection with the evolution of a human collective."  Ultimately, Polivanov lost the battle by underestimating the bureaucracy and the institutional framework: he lost positions in both capitals and exiled to central Asia.<br />
 Naturally, this paper will lead to more readings on Polivanov and other Marxist linguists who worked to change the direction of the discipline in the 1920's and 1930's.<br />
 
-
+___
 ### Philosophy of Language, Nicholas Yakovlevich Marr, and Marxism
 > Soviet Orientalism and Subaltern Linguistics:: The Rise and Fall of Marr’s Japhetic Theory. (2014). In The Making of the Humanities, vol. III: The Making of the Modern Humanities (p. 97). Amsterdam: Amsterdam University Press. 
 
