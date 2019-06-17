@@ -1,5 +1,7 @@
 ## Soviet Linguistics - An annotated bibliography for accessible English-language resources - _Ordered thematically_<br />
+
 Most papers may be found [here](https://github.com/johnschriner/presentations/tree/master/soviet_linguistics_-_papers).
+
 ___
 _When the Bolsheviks came to power in 1917, they began to make language policy for the hundreds of official and minority languages across the country.  This brief and non-exhaustive bibliography will look at particular language policies, how linguistics and academics changed, the reaction to Western Indo-European-obsessed bourgeois linguistics, and the quest for a "Soviet linguistics."_
 
