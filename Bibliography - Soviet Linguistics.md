@@ -57,9 +57,11 @@ Naturally, this paper will lead to more readings on Polivanov and other Marxist 
 
 ___
 ### Philosophy of Language, Nicholas Yakovlevich Marr, and Marxism
-> Soviet Orientalism and Subaltern Linguistics:: The Rise and Fall of Marr’s Japhetic Theory. (2014). In The Making of the Humanities, vol. III: The Making of the Modern Humanities (p. 97). Amsterdam: Amsterdam University Press. 
+> Leezenberg, Michiel (2014). Soviet Orientalism and Subaltern Linguistics:: The Rise and Fall of Marr’s Japhetic Theory. (2014). In The Making of the Humanities, vol. III: The Making of the Modern Humanities (p. 97). Amsterdam: Amsterdam University Press. 
 
 Paper [here](https://github.com/johnschriner/presentations/blob/master/soviet_linguistics_-_papers/Leezenberg%20(2014)%20Soviet%20Orientalism%20and%20Subaltern%20Linguistics.pdf)
+
+This paper is precisely what we needed to trace the roots of anti-West or anti-bourgeois humanities (and linguistics).  Leezenberg examines the work of Trubetzkoy--the founder of structuralist phonology and a proponent of the Eurasianism movement--as well as Marr.
 
 > Murra, J. V. (1951). The Soviet linguistic controversy. New York: King's Crown. 
 
