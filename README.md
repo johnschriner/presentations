@@ -1,21 +1,21 @@
 # Published papers:
 Schriner, John, "Book Review: Weaving the Dark Web: Legitimacy on Freenet, Tor, and I2P" (2019). CUNY Academic Works.<br/>
-https://academicworks.cuny.edu/qb_pubs/58<br/>
+  https://academicworks.cuny.edu/qb_pubs/58<br/>
 
 Schriner, John, "Building Test Anonymity Networks in a Cybersecurity Lab Environment" (2018). CUNY Academic Works.<br/>
-https://academicworks.cuny.edu/jj_etds/80<br/>
+  https://academicworks.cuny.edu/jj_etds/80<br/>
 
 Schriner, John, "The Legacy of Multics and Secure Operating Systems Today" (2018). CUNY Academic Works.<br/>
-https://academicworks.cuny.edu/qb_pubs/44<br/>
+  https://academicworks.cuny.edu/qb_pubs/44<br/>
 
 Monitoring the Dark Web and Securing Onion Services<br />
 Schriner, John, "Monitoring the Dark Web and Securing Onion Services" (2017). CUNY Academic Works.<br />
-https://academicworks.cuny.edu/qb_pubs/41<br />
+  https://academicworks.cuny.edu/qb_pubs/41<br />
 The presentation: https://goo.gl/ORT5m1 and http://prezi.com/krjp3ifqzdkh/<br />
 
 Radical Librarian-Technologists<br/>
 Schriner, John, "Radical Librarian-Technologists" (2015). CUNY Academic Works.<br/>
-http://academicworks.cuny.edu/le_pubs/105
+  http://academicworks.cuny.edu/le_pubs/105
 
 
 # Presentations:
