@@ -1,6 +1,6 @@
 # Published papers:
 Schriner, John, "Book Review: Weaving the Dark Web: Legitimacy on Freenet, Tor, and I2P" (2019). CUNY Academic Works.<br/>
-  https://academicworks.cuny.edu/qb_pubs/58<br/>
+  https://academicworks.cuny.edu/qb_pubs/58 and https://doi.org/10.1080/24701475.2019.1623002<br/>
 
 Schriner, John, "Building Test Anonymity Networks in a Cybersecurity Lab Environment" (2018). CUNY Academic Works.<br/>
   https://academicworks.cuny.edu/jj_etds/80<br/>
