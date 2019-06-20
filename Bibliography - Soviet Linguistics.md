@@ -9,7 +9,6 @@ These are all accessible texts and all are English-language.
 
 _This area is interesting for the following reasons:  it was a giant landmass that the Bolshevik's inherited; it's the birth of sociolinguistics in the Soviet Union; the Bolsheviks had to fight a civil war on top of ending their part in WWI with the Brest-Litovsk Treaty; the Muslim Turkic-world comprised much of central Asia with its own cultures; ~130 different languages, many with no standard written form._
 
-The more we read, the more the area expands into concepts of nationalism, identity, and [finish this thought]
 
 ___
 ### General Introduction and Surveys of Languages
@@ -61,7 +60,7 @@ ___
 
 Paper [here](https://github.com/johnschriner/presentations/blob/master/soviet_linguistics_-_papers/Leezenberg%20(2014)%20Soviet%20Orientalism%20and%20Subaltern%20Linguistics.pdf)
 
-This paper is precisely what we needed to trace the roots of anti-West or anti-bourgeois humanities (and linguistics).  Leezenberg examines the work of Trubetzkoy--the founder of structuralist phonology and a proponent of the Eurasianism movement--as well as Marr.
+This paper is precisely what we needed to trace the roots of anti-West or anti-bourgeois humanities (and linguistics).  Leezenberg examines the work of Trubetzkoy--the founder of structuralist phonology and a proponent of the Eurasianism movement--as well as Marr.   "Marr is as notorious as Trubetzkoy is famous."  Here Leezenberg places the scientific debate in context and mentions that Marr's criticism of German philology turned out to be founded: alongside (and independently) Trubetzkoy, both claimed that German philologists spread Aryan supremacy speculations atop linguistics lineage.  Comparative linguistics itself was racist, and Marr would study two problem languages in the story of Indo-European linguistics: Georgian and Armenian.  Marr is quoted as saying "struggle for nationality, and against nationalism."  We see Marr's more endearing traits in this article than in others.  He wishes to acknowledge Muslim contributions to the cultures of the Caucasus, in sharp deviance from the near-total focus on the Christian past.  Trubetzkoy was critical of Marr saying that his "new linguistic doctrine" is no different from Western linguistics and by choosing this path they cut themselves off from progress in the field in Europe.  Also he said that a critical review of Marr's article ought to be done, not by a linguist, but by a psychiatrist.
 
 > Murra, J. V. (1951). The Soviet linguistic controversy. New York: King's Crown. 
 
