@@ -17,6 +17,10 @@ ___
 
 Paper [here](https://mega.nz/#!RHwAXSaQ!MQCWYrh_zbXvsME5psGT699HosmfnrLfw3ax1gB-i2o) 
 
+> Grenoble, L. A. (2003). Language policy in the soviet union. Dordrecht ; Boston: Kluwer Academic Publishers.
+
+Paper [here](https://github.com/johnschriner/presentations/blob/master/soviet_linguistics_-_papers/Grenoble%20(2013)%20Language%20Policy%20in%20the%20Soviet%20Union.epub)
+
 > Krysin, L. (1977). Social Linguistics in the Ussr. Language in Society, 6(2), 229-246. doi:10.1017/S0047404500007284
 
 Paper [here](https://mega.nz/#!dXAXHCSB!KcJl_e31QTnr2jSG2ZchkH61fqugneXXlB9fU0La0xU)
