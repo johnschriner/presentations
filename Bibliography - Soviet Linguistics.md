@@ -17,6 +17,14 @@ ___
 
 Paper [here](https://mega.nz/#!RHwAXSaQ!MQCWYrh_zbXvsME5psGT699HosmfnrLfw3ax1gB-i2o) 
 
+> Gloveli, G. D. (1991). 'Socialism of science' versus 'socialism of feelings': Bogdanov and Lunacharsky. Studies in Soviet Thought, 42(1), 29–55. https://doi.org/10.1007/BF00818646
+
+Paper [here](https://github.com/johnschriner/presentations/blob/master/soviet_linguistics_-_papers/Gloveli%20and%20Biggart%20(1991)%20Socialism%20of%20Science%20versus%20Socialism%20of%20Feelings%20-%20Bogdanov%20and%20Lunacharsky.pdf
+)
+
+This paper is a great introduction to socialist philosophy and praxis _a la_ two very different personalities in Bogdanov (science) and Lunacharksy (feelings).  Firstly, it's good to note that this volume in _Studies in Soviet Thought_ came out in July 1991 and the Soviet Union dissolved on December 26, 1991.  The journal would publish for another year until November 1992, but then continued as _Studies in East European Thought_ in June 1993 with the issue's theme being "Marxism and the Socialist Idea in Russia Today."  So this article was written and published in the few twilight days of the Soviet Union and it begins with "In the USSR at present the discipline of history is undergoing a profound crisis which involves a radical reappraisal of values."
+Indeed!  It's a critical and valuable look at Bogdanov and Lunacharsky's legacy in light of fresh ways of finally talking about War Communism, all of it darkened by the question of who sowed the seeds that lead to Stalinism.
+
 > Grenoble, L. A. (2003). Language policy in the soviet union. Dordrecht ; Boston: Kluwer Academic Publishers.
 
 Paper [here](https://github.com/johnschriner/presentations/blob/master/soviet_linguistics_-_papers/Grenoble%20(2013)%20Language%20Policy%20in%20the%20Soviet%20Union.epub)
