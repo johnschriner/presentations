@@ -34,6 +34,11 @@ Paper [here](https://github.com/johnschriner/presentations/blob/master/soviet_li
 
 Paper [here](https://mega.nz/#!dXAXHCSB!KcJl_e31QTnr2jSG2ZchkH61fqugneXXlB9fU0La0xU)
 
+> Podoroga, V. (1993). Can Marxian thought be separated from totalitarian ideology? Studies in East European Thought, 45(1), 67-69.
+
+Paper [here](https://mega.nz/#!MHYnyARK!gPaPvW1Nllgwt85fp7d7bvv5-cnUKIeRQikV6w5z_Bc)
+
+Answer: _Maybe?_  This is the first issue of the new _Studies in Eastern European Thought_ after it was re-named after the dissolution of the USSR.  "Marxism as an ideology serving the state--a terrorist mentality for decades--is no more."  We see, as in other readings, a note about culture and cultural development. <br />
 ___
 ### Language Policy
 
