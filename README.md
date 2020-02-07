@@ -19,6 +19,12 @@ Schriner, John, "Radical Librarian-Technologists" (2015). CUNY Academic Works.<b
 
 
 # Presentations:
+
+Comparing and Contrasting Two Academic Library Websites:
+https://web.archive.org/web/20130503173158/http://qcc.libguides.com/libraryhome
+https://web.archive.org/web/20130509122413/https://www.lib.jjay.cuny.edu/
+
+
 It's Just Memes: Evidence of Hate Speech and Aggression<br />
 https://prezi.com/lonxr2ub9zth/its-just-memes/
 
