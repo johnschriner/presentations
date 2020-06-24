@@ -39,6 +39,12 @@ Paper [here](https://mega.nz/#!dXAXHCSB!KcJl_e31QTnr2jSG2ZchkH61fqugneXXlB9fU0La
 Paper [here](https://mega.nz/#!MHYnyARK!gPaPvW1Nllgwt85fp7d7bvv5-cnUKIeRQikV6w5z_Bc)
 
 Answer: _Maybe?_  This is the first issue of the new _Studies in Eastern European Thought_ after it was re-named after the dissolution of the USSR.  "Marxism as an ideology serving the state--a terrorist mentality for decades--is no more."  We see, as in other readings, a note about culture and cultural development. <br />
+
+> Smith, M. G. (2012). Language and Power in the Creation of the USSR, 1917-1953. Berlin, Boston: De Gruyter Mouton. doi: https://doi.org/10.1515/9783110805581
+
+Paper [here](https://mega.nz/file/MSAHkIYQ#Kyl-5IC2lm9hIfMRDxy3MWTiiv9gSpOcodRLdU68obo)
+
+
 ___
 ### Language Policy
 
