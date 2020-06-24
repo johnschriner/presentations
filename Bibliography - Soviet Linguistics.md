@@ -3,7 +3,7 @@
 Most papers may be found [here](https://github.com/johnschriner/presentations/tree/master/soviet_linguistics_-_papers).
 
 ___
-_When the Bolsheviks came to power in 1917, they began to make language policy for the hundreds of official and minority languages across the country.  This brief and non-exhaustive bibliography will look at particular language policies, how linguistics and academics changed, the reaction to Western Indo-European-obsessed bourgeois linguistics, and the quest for a "Soviet linguistics."_
+_When the Bolsheviks finally came to power in 1921, they began to make language policy for the hundreds of official and minority languages across the country.  This brief and non-exhaustive bibliography will look at particular language policies, how linguistics and academics changed, the reaction to Western Indo-European-obsessed bourgeois linguistics, and the quest for a "Soviet linguistics."_
 
 These are all accessible texts and all are English-language.  
 
@@ -44,6 +44,7 @@ Answer: _Maybe?_  This is the first issue of the new _Studies in Eastern Europea
 
 Paper [here](https://mega.nz/file/MSAHkIYQ#Kyl-5IC2lm9hIfMRDxy3MWTiiv9gSpOcodRLdU68obo)
 
+A fantastic analysis that really spans all of the categories listed here: policy, academia, philosophy of language, etc.<br />
 
 ___
 ### Language Policy
