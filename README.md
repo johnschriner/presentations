@@ -19,6 +19,8 @@ Schriner, John, "Radical Librarian-Technologists" (2015). CUNY Academic Works.<b
 
 
 # Presentations:
+Building Test Anonymity Networks in a Cybersecurity Lab Environment
+https://prezi.com/view/HsStHoW12fElM2Rpqcht/
 
 Cybercrime:<br/>
 https://prezi.com/hserxodxm-di/cybercrime/<br/>
