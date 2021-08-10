@@ -1,4 +1,8 @@
 # Published papers:
+Rood, Melody and John Schriner, The Internet Never Forgets: Image-Based Sexual Abuse and the Workplace
+https://www.igi-global.com/chapter/the-internet-never-forgets/263423
+and https://academicworks.cuny.edu/qb_pubs/70/
+
 Schriner, John, "Book Review: Weaving the Dark Web: Legitimacy on Freenet, Tor, and I2P" (2019). CUNY Academic Works.<br/>
   https://academicworks.cuny.edu/qb_pubs/58 and https://doi.org/10.1080/24701475.2019.1623002<br/>
 
