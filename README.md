@@ -1,5 +1,5 @@
 # Published papers:
-Rood, Melody and John Schriner, The Internet Never Forgets: Image-Based Sexual Abuse and the Workplace
+Rood, Melody and John Schriner, The Internet Never Forgets: Image-Based Sexual Abuse and the Workplace<br />
 https://www.igi-global.com/chapter/the-internet-never-forgets/263423
 and https://academicworks.cuny.edu/qb_pubs/70/
 
